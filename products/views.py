@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.db.models import Q
-from .models import Product
+from .models import Product, Specie
 
 # Create your views here.
 
@@ -10,8 +10,14 @@ def all_products(request):
 
     products = Product.objects.all()
     query = None
+    specie = None
 
     if request.GET:
+        if 'specie' in request.GET:
+            species = request.GET['specie'].split(',')
+            products = products.filter(specie__name__in=species)
+            species = Specie.objects.filter(name__in=species)
+
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:

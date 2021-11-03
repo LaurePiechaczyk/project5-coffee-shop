@@ -16,8 +16,49 @@ class Category(models.Model):
         return self.friendly_name
 
 
+class Country(models.Model):
+
+    class Meta:
+        verbose_name_plural = 'Countries'
+        
+    name = models.CharField(max_length=254)
+
+    def __str__(self):
+        return self.name
+
+
+class Strongness(models.Model):
+
+    class Meta:
+        verbose_name_plural = 'Strongness'
+        
+    name = models.CharField(max_length=254)
+
+    def __str__(self):
+        return self.name
+
+
+class Specie(models.Model):
+        
+    name = models.CharField(max_length=254)
+
+    def __str__(self):
+        return self.name
+
+
+class Roast(models.Model):
+        
+    name = models.CharField(max_length=254)
+
+    def __str__(self):
+        return self.name
+
 class Product(models.Model):
     category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
+    country = models.ForeignKey('Country', null=True, blank=True, on_delete=models.SET_NULL)
+    strongness = models.ForeignKey('Strongness', null=True, blank=True, on_delete=models.SET_NULL)
+    specie = models.ForeignKey('Specie', null=True, blank=True, on_delete=models.SET_NULL)
+    roast = models.ForeignKey('Roast', null=True, blank=True, on_delete=models.SET_NULL)   
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
     description = models.TextField()
