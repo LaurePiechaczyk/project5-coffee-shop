@@ -2,12 +2,10 @@ html {
     height: 100%;
 }
 
-body {
-    background: url('/media/main_picture.jpg') no-repeat center center fixed;
-    background-size: cover;
-    height: calc(100vh - 164px);
-    color: #555;
-  
+*{
+    margin:0;
+    padding:0;
+    border:0;
 }
 
 /* from Bulma */
@@ -28,52 +26,58 @@ body {
 }
 
 .shop-now-button {
-    background: black;
+    background: #65a575;
+    margin-top: 30px;
     color: white;
-    min-width: 260px;
+    width: 270px;
 }
 
-.btn-black {
-    background: black;
+
+.btn-dark-brown {
+    background: #53413e;
     color: white;
 }
 
-.btn-outline-black {
+.btn-dark-beige {
+    background: #c68d76;
+    color: white;
+}
+
+.btn-outline-dark-brown {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
-    border: 1px solid black;
+    color: #53413e !important; /* use important to override link colors for <a> elements */
+    border: 1px solid #53413e;
 }
+.btn-outline-dark-beige {
+    background: white;
+    color: #c68d76 !important; /* use important to override link colors for <a> elements */
+    border: 1px solid #c68d76;
+}
+
 
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
-    background: #222;
+.dark-brown:hover,
+.dark-brown:active,
+.dark-brown:focus {
+    background: #406f5c;
     color: white;
 }
 
-.text-black {
-    color: #000 !important;
+.text-dark-brown {
+    color: #53413e !important;
+}
+.text-dark-beige {
+    color: #c68d76 !important;
 }
 
-.border-black {
-    border: 1px solid black !important;
+.border-dark-brown {
+    border: 1px solid #53413e !important;
 }
 
-.bg-black {
-    background: #000 !important;
-}
-
-.overlay {
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	position: fixed;
-	background: white;
-	z-index: -1;
+.bg-dark-brown {
+    background: #53413e !important;
 }
 
 .btt-link,
@@ -81,6 +85,67 @@ body {
 .remove-item {
     cursor: pointer;
 }
+
+
+.main-image {
+    /*background: url('/media/main_picture.jpg') no-repeat center center fixed;
+    background-size: cover;*/
+    /*height: calc(100vh );*/
+   /*height: calc(600px );*/
+    height: calc(100vh - 181px);
+    background-color:#c68d763b ;
+}
+
+.shop-now-button-container {
+    padding-top: 0px; 
+}
+
+.intro-text {
+    padding-top: 250px;
+}
+
+.coffee-beans-background {
+    height: 150px;
+    background: url('/static/images/bean2.png');
+    background-position:  left top;
+    background-repeat:  repeat;
+    background-size: 15px;
+    background-color: #c68d763b;
+  }
+
+
+.dd {
+    height: 100vh;
+    background: url('/media/main_picture.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* ------------------------------- coffee animation */
+.coffee-animation  {
+    margin-left: 50px;
+    padding-bottom: 20vh;
+    position:fixed;
+}
+.coffe-pot {
+    width: 250px;
+    position:relative;
+}
+
+.coffe-pot img {
+    padding-top: 20px;
+    position: absolute;
+}
+
+
+.coffee-liquide {
+    left: 20px;
+    top:30px; 
+}
+
+.coffee-animation div img{
+    width: 100%;
+  }
+
 
 /* ------------------------------- bootstrap toasts */
 
