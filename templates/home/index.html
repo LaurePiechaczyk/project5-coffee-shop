@@ -11,36 +11,79 @@
 
 
 {% block content %}
-<div class="main-image">
 
+
+<!-- -------------------First part index -->
+<div class="index-part1">
     <div class="coffee-animation">
+        <!-- Shop now button -->
         <div class="shop-now-button-container">
             <h4>
                 <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
             </h4>
         </div>
 
-
+        <!-- coffee pot -->
         <div class="coffe-pot"> 
             <img class="coffee-liquide" src="./static/images/coffe-flip.png" alt="">      
             <img src="./static/images/coffe-pot-empty.png" alt="">  
         </div>
-    
 
-    <div class="intro-text row">
-            <h1 class="display-4 logo-font text-black col-12 col-sm-12 col-md-12  col-lg-12 col-xl-12">
-                Enjoy fresh coffee now!
-            </h1>
-
+        <!-- coffee cup -->
+        <div class="coffe-cup"> 
+            <img class="cup" src="./static/images/tasse.png" alt="">      
+            <img class="smoke" src="./static/images/smoke.png" alt="">  
         </div>
+
     </div>
 
-    <div class="scroll-trigger"></div>
+    <!-- arrow down -->
+    <div class="arrow-container">
+        <div class="arrow-down"></div>
+    </div>
 
+    <!-- intro text -->
+    <div class="intro-text row">
+        <h1 class="display-4 logo-font text-dark-beige col-12 col-sm-12 col-md-12  col-lg-12 col-xl-12">
+            Enjoy fresh coffee now!
+        </h1>
+    </div>
+
+    <!-- second-part-text -->
+    <div class="second-part-text row">
+        <h1 class="display-4 logo-font text-green col-12 col-sm-12 col-md-12  col-lg-12 col-xl-12">
+            Coffee inspired by NATURE
+        </h1>
+    </div>
+
+    <!-- coffe bag -->
+    <div class="coffe-bag-container">
+        <img class="" src="./static/images/coffe-bag.png" alt=""> 
+    </div>
+
+    <!-- coffe leaf -->
+    <div class="coffe-leaf-container">
+        <img class="" src="./static/images/feuille.png" alt=""> 
+    </div>
+
+    <!-- coffe fruits -->
+    <div class="coffe-fruits-container">
+        <img class="" src="./static/images/coffee-fruits.png" alt=""> 
+    </div>
 
 </div>
 
+<!-- -------------------transition1 -->
 <div class="coffee-beans-background"></div>
 
-<div class="dd"></div>
+<!-- ------------------- part 2  -->
+<div class="part-two-bg">
+
+<!-- ------------------- products pictures  -->
+{% for product in products %}
+{{ product.name }}
+{% endfor %}
+
+
+</div>
 {% endblock %}
