@@ -89,14 +89,7 @@ html {
     cursor: pointer;
 }
 
-
 .index-part1 {
-    /*background: url('/media/main_picture.jpg') no-repeat center center fixed;
-    background: url('/static/images/world-map.png') no-repeat center center fixed;
-    background-size: cover;*/
-    /*height: calc(100vh );*/
-   /*height: calc(600px );*/
-    
     height: calc(100vh - 181px);
     background-color:#c68d763b ;
 }
@@ -105,13 +98,11 @@ html {
     padding-top: 0px; 
 }
 
-
 .second-part-text, .intro-text {
     position:fixed;
-    top: 70vh;
+    top: 80vh;
     width: 100%;
     text-align: center;
-    
 }
 
 .second-part-text {
@@ -140,7 +131,7 @@ html {
     width: 250px;
     position:fixed;
     top: 83vh;
-    transform: translateY(80px);
+    transform: translateY(60px);
 }
 
 .coffe-bag-container img, .coffe-leaf-container img, .coffe-fruits-container img {
@@ -172,11 +163,32 @@ html {
     background-color: #c68d763b;
 }
 
-
 .part-two-bg {
     height: 200vh;
     background: url('/media/main_picture.jpg') no-repeat center center fixed;
     background-size: cover;
+}
+
+.products-index-container {
+    position:fixed;
+    top: 300px;  
+    width: 100%;
+    opacity: 0;
+}
+
+.index-products {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.index-products div {
+    display: flex;
+    justify-content: center;
+    
+}
+.index-products img {
+    max-width: 300px; 
 }
 
 /* ------------------------------- coffee animation (cup and pot) */

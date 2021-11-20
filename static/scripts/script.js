@@ -12,6 +12,8 @@ const coffeeFruits = document.querySelector('.coffe-fruits-container')
 
 const secondPartText = document.querySelector('.second-part-text')
 
+const productsIndexContainer = document.querySelector('.products-index-container')
+
 
 
 // --------------- Pot animations
@@ -48,7 +50,7 @@ let introTextScrollTrigger  = {
     endTrigger: "footer",
     end:"bottom top",
     
-    toggleActions: "play none none reverse",
+    toggleActions: "play none none none",
     };
 
 
@@ -73,7 +75,7 @@ let plantsTextScrollTrigger  = {
     endTrigger: "footer",
     end:"bottom top",
     markers:true,
-    toggleActions: "play none none reverse",
+    toggleActions: "play none none none",
     };
 
 gsap.to(coffeeLeaf, {
@@ -86,14 +88,14 @@ gsap.to(coffeeLeaf, {
 gsap.to(coffeeFruits, {
     opacity: 1,
     scrollTrigger: plantsTextScrollTrigger,
-    duration: 10,
+    duration: 5,
 })
 
 // --------------- second-part-text animation
 gsap.to(secondPartText, {
     opacity: 1,
     scrollTrigger: plantsTextScrollTrigger,
-    duration: 5,
+    duration: 1,
 })
 
 
@@ -102,8 +104,17 @@ gsap.to(secondPartText, {
 gsap.to(entireCoffeePot, {
     opacity: 0,
     scrollTrigger: plantsTextScrollTrigger,
-    duration: 2,
+    duration: 5,
 })
+
+
+// --------------- Products apearance
+gsap.to(productsIndexContainer, {
+    opacity: 1,
+    scrollTrigger: plantsTextScrollTrigger,
+    duration: 10,
+})
+
 
 // --------------- cup animation
 /*
