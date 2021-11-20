@@ -1,18 +1,86 @@
 <div class="d-lg-none mobile-index">
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col-9 col-md-7 my-auto">
-                <h1 class="display-4 logo-font">
-                    Enjoy fresh coffee!
-                </h1>
-                <div class="my-5">
-                    <h4>
-                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
-                    </h4>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-12 my-auto text-center ">
+                <div class="bg-white my-5">
+                    <h1 class="logo-font text-dark-beige bg-white my-0"><strong>Coffee & Nature</strong></h1>
+                    <h2 class="logo-font">
+                        Enjoy fresh coffee!
+                    </h2>
                 </div>
+                <h4>
+                    <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3 mt-1">
+                        Shop Now
+                    </a>
+                </h4>
             </div>
         </div>
     </div>
-    <div class="part-two-bg"></div>
+    <div class="arrow-down mt-5"></div>
+   
 
+</div>
+<div class="d-lg-none mobile-part2">
+    <div class="row">
+        <div class="col-12 my-auto text-center">  
+            <h2 class="logo-font mt-3 text-green ">
+                Coffee inspired by NATURE
+            </h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="product-container col-10 offset-1">
+            <div class="row mt-1 mb-2"></div>
+            <div class="row">
+                {% for product in four_random_products %}
+                    <div class="col-sm-6 col-md-6">
+                        <div class="card h-100 border-0">
+                            {% if product.image %}
+                            <a href="{% url 'product_detail' product.id %}">
+                                <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                            </a>
+                            {% else %}
+                            <a href="% url 'product_detail' product.id %">
+                                <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                            </a>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% if forloop.counter|divisibleby:1 %}
+                        <div class="col-12 d-sm-none mb-5">
+                            <hr>
+                        </div>
+                    {% endif %}                        
+                    {% if forloop.counter|divisibleby:2 %}
+                        <div class="col-12 d-none d-sm-block d-md-block d-lg-none mb-5">
+                            <hr>
+                        </div>
+                    {% endif %}
+                    
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="d-lg-none mobile-index">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-12 my-auto text-center ">
+                <div class="bg-white my-5">
+                    <h1 class="logo-font text-dark-beige bg-white my-0">More Products in our shop</h1>
+
+                </div>
+                <h4>
+                    <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3 mt-1">
+                        Shop Now
+                    </a>
+                </h4>
+            </div>
+        </div>
+    </div>
 </div>

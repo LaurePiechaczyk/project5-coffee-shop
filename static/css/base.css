@@ -302,6 +302,18 @@ html {
     overflow-y: auto;
 }
 
+/* -----------------------------Index mobile version */
+.mobile-index {
+    background: url('/media/main_picture.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+.mobile-part2 {
+    background-color: #c68d763b;
+    
+}
+
 
 /* -------------------------------- Media Queries */
 
@@ -314,14 +326,6 @@ html {
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
-    .fixed-top-desktop-only {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
-
     .header-container {
         padding-top: 164px;
     }
@@ -331,6 +335,7 @@ html {
     .header-container {
         padding-top: 116px;
     }
+    
 
     body {
         height: calc(100vh - 116px);
