@@ -89,6 +89,91 @@ html {
     cursor: pointer;
 }
 
+
+.part-intro {
+    
+        background: url('/media/main_picture.jpg') no-repeat center center fixed;
+        background-size: cover;
+        height: calc(100vh - 164px);
+    
+}
+
+.arrow-container {
+    width: 100%;
+    position:absolute;
+    top: 90vh;
+}
+
+.arrow-down {
+    border: solid #65a575;
+    border-width: 0 6px 6px 0;
+    width: 20px;
+    padding: 20px;
+    position : relative;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.part-products {
+    background-size: cover;
+    min-height: calc(100vh - 164px); ;
+    background-color:#c68d763b;
+    position:relative;
+}
+
+.coffe-pot {
+    width: 150px;
+    position:absolute;
+    top:10px;
+    right: 10px;
+}
+
+.coffe-pot .coffee-liquide {
+    width:90%;
+    position: absolute;
+    top:30px;
+
+}
+
+.coffe-pot .empty-pot {
+    width:100%;
+    position: absolute;
+}
+
+.more-products {
+    position: relative;
+}
+
+.coffe-cup {
+    position: absolute;
+    left: 70%;
+    top: 60px;
+}
+
+.coffe-cup .cup {
+    width: 110px;
+  
+}
+.coffe-cup .smoke {
+    width: 50px;
+    position: absolute;
+    left: 17px;
+    top: -50px;
+  
+}
+
+
+
+.part-about-our-coffee {
+    background: url('/media/main_picture.jpg') no-repeat center center fixed;
+    background-size: cover; 
+}
+
+
+
+/*
 .index-part1 {
     height: calc(100vh - 181px);
     background-color:#c68d763b ;
@@ -175,24 +260,10 @@ html {
     width: 100%;
     opacity: 0;
 }
-
-.index-products {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.index-products div {
-    display: flex;
-    justify-content: center;
-    
-}
-.index-products img {
-    max-width: 300px; 
-}
+ */
 
 /* ------------------------------- coffee animation (cup and pot) */
-/* coffee pot */
+/* coffee pot 
 .coffee-animation  {
     margin-left: 50px;
     padding-bottom: 20vh;
@@ -216,8 +287,7 @@ html {
 .coffee-animation div img{
     width: 100%;
 }
-
-/* coffee cup */
+/* coffee cup 
 .coffe-cup .cup {
     width: 160px;
     position: absolute;
@@ -233,6 +303,7 @@ html {
     opacity: 0;
 }
 
+*/
 
 /* ------------------------------- bootstrap toasts */
 
@@ -321,6 +392,10 @@ html {
 @media (min-width: 1200px) {
   .container {
     max-width: 80%;
+  }
+  .xl-container-index {
+    max-width: 90%;
+    margin-left: 5%;
   }
 }
 

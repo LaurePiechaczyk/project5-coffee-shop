@@ -17,86 +17,223 @@
 
 <!-- For large screen -->
 <div class="d-none d-lg-block">
-<!-- -------------------First part index -->
-    <div class="index-part1">
-        <div class="coffee-animation">
-            <!-- Shop now button -->
-            <div class="shop-now-button-container">
-                <h4>
-                    <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
-                </h4>
-            </div>
 
-            <!-- coffee pot -->
-            <div class="coffe-pot"> 
-                <img class="coffee-liquide" src="./static/images/coffe-flip.png" alt="">      
-                <img src="./static/images/coffe-pot-empty.png" alt="">  
+<!-- -------------------Intro part part index -->
+    <div class="part-intro">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-9 my-auto">
+                    <h1 class="display-4 logo-font">
+                        Enjoy fresh coffee!
+                    </h1>
+                    <div class="my-5">
+                        <h4>
+                            <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
+                        </h4>
+                    </div>
+                </div>
             </div>
-
-            <!-- coffee cup -->
-            <div class="coffe-cup"> 
-                <img class="cup" src="./static/images/tasse.png" alt="">      
-                <img class="smoke" src="./static/images/smoke.png" alt="">  
-            </div>
-
         </div>
-
         <!-- arrow down -->
         <div class="arrow-container">
             <div class="arrow-down"></div>
         </div>
 
-        <!-- intro text -->
-        <div class="intro-text row">
-            <h1 class="display-4 logo-font text-dark-beige col-12 col-sm-12 col-md-12  col-lg-12 col-xl-12">
-                Enjoy fresh coffee!
-            </h1>
-        </div>
+    </div>  
 
-        <!-- second-part-text -->
-        <div class="second-part-text row">
-            <h1 class="display-4 logo-font text-green col-12 col-sm-12 col-md-12  col-lg-12 col-xl-12">
-                Coffee inspired by NATURE
-            </h1>
+  <div class="part-products">
+    <div class="pl-5">
+        <div class="row h-100">
+            <div class="col-12 my-auto">
+                <h1 class="display-4 logo-font text-green pt-5">
+                    Coffee inspired by NATURE
+                </h1>
+            </div>
         </div>
+    </div>
 
-        <!-- ------------------- products pictures  -->
-        <div class="products-index-container">
-            <div class="index-products">
-            
-                    {% for product in four_random_products %}
-                    <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-                        <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+    <!-- coffee pot -->
+     <div class="coffe-pot"> 
+        <img class="coffee-liquide" src="./static/images/cafe-straight.png" alt="">      
+        <img class="empty-pot" src="./static/images/cafetiere-vide.png" alt="">  
+   
+    </div>
+
+
+    <!-- ------------------- products pictures  -->
+    <div class="xl-container-index pt-3">
+        <div class="row no-gutters text-center">
+            {% for product in four_random_products %}
+                <div class="col-lg-3 p-1 xl-p-3" >
+                    <div class="card  border-0 m-1">
+                        {% if product.image %}
+                        <a href="{% url 'product_detail' product.id %}">
+                            <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                        </a>
+                        {% else %}
+                        <a href="% url 'product_detail' product.id %">
+                            <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                        </a>
+                        {% endif %}
+                        <div class="card-footer bg-white pt-0 border-0 text-left">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="lead mb-0 text-left font-weight-bold">${{ product.price }} / kg</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    {% endfor %}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+     
+    <div class="pl-5 pb-5 more-products">
+        <h2 class="text-green pt-5 font-weight-light">More products in our
+            <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase my-auto">Shop</a>
+        </h2>
+
+        <!-- coffee cup -->
+        <div class="coffe-cup"> 
+            <img class="cup" src="./static/images/tasse.png" alt="">      
+            <img class="smoke" src="./static/images/smoke.png" alt="">  
+        </div>
+    </div>
+
+  </div>
+
+  <div class="part-about-our-coffee">
+    <div class="pl-5">
+        <div class="row h-100">
+            <div class="col-9 my-auto">
+                <h1 class="display-4 logo-font pt-5">
+                    From Responsible farmers
+                </h1>
+            </div>
+        </div>
+    </div>
+    <div class="xl-container-index pt-3">
+        <div class="row no-gutters text-center">
+                <div class="col-lg-3 p-1 xl-p-3" >
+                    <div class="card  border-0 m-1">
+                        <img class="card-img-top img-fluid" src="./static/images/coffee-fresh-hands2.jpg" alt="">
+
+                    </div>
+                </div>
+                <div class="col-lg-3 p-1 xl-p-3" >
+                    <div class="card  border-0 m-1">
+                        <img class="card-img-top img-fluid" src="./static/images/coffee-tree.jpg"" alt="">
+                    </div>
+                    <div class="card  border-0 m-1">
+                        <img class="card-img-top img-fluid" src="./static/images/coffee-bag-background.jpg"" alt="">
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <div class="part-about-our-coffee pb-5">
+        <div class="pl-5">
+            <div class="row h-100">
+                <div class="col-12 my-auto">
+                    <h1 class="display-4 logo-font pt-5">
+                        From 4 countries
+                    </h1>
+                </div>
             </div>
         </div>
 
-        <!-- coffe bag -->
-        <div class="coffe-bag-container">
-            <img class="" src="./static/images/coffe-bag.png" alt=""> 
-        </div>
 
-        <!-- coffe leaf -->
-        <div class="coffe-leaf-container">
-            <img class="" src="./static/images/feuille.png" alt=""> 
-        </div>
+    <div class="xl-container-index pt-3">
+        <div class="row no-gutters text-center">
+                <div class="col-lg-3 p-1 xl-p-3" >
+                    <div class="card  border-0 m-1">
+                        <img class="card-img-top img-fluid" src="./static/images/Ethiopia.png" alt="">
+                        <div class="card-footer bg-white pt-0 border-0 text-left">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="lead mb-0 text-left font-weight-bold">ETHIOPIA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 p-1 xl-p-3" >
+                    <div class="card  border-0 m-1">
+                        <img class="card-img-top img-fluid" src="./static/images/Brazil.png" alt="">
+                        <div class="card-footer bg-white pt-0 border-0 text-left">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="lead mb-0 text-left font-weight-bold">Brazil</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 p-1 xl-p-3" >
+                    <div class="card  border-0 m-1">
+                        <img class="card-img-top img-fluid" src="./static/images/togo.jpg" alt="">
+                        <div class="card-footer bg-white pt-0 border-0 text-left">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="lead mb-0 text-left font-weight-bold">TOGO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 p-1 xl-p-3" >
+                    <div class="card  border-0 m-1">
+                        <img class="card-img-top img-fluid" src="./static/images/Peru.jpg" alt="">
+                        <div class="card-footer bg-white pt-0 border-0 text-left">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="lead mb-0 text-left font-weight-bold">PERU</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-        <!-- coffe fruits -->
-        <div class="coffe-fruits-container">
-            <img class="" src="./static/images/coffee-fruits.png" alt=""> 
         </div>
 
     </div>
 
-    <!-- -------------------transition1 -->
-    <div class="coffee-beans-background"></div>
-
-    <!-- ------------------- part 2  -->
-    <div class="part-two-bg">
-
-
     </div>
-
 </div>
+    <!-- Footer -->
+<footer class="text-center bg-white py-2 ">
+    <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h4 class="text-uppercase text-dark-beige mb-4">
+                <strong>Coffee & Nature</strong>
+            </h4>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the'
+
+            </p>
+        </div>
+    
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h4 class="text-uppercase text-dark-beige mb-4">
+                <strong>Contact</strong>
+            </h4>
+            <p><i class="fas fa-home me-3 text-dark-brown"></i> London, 20 greenstreet, UK</p>
+            <p>
+                <i class="fas fa-envelope me-3 text-dark-brown"></i>
+                coffee.nature@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3 text-dark-brown"></i> + 43 001293847</p>
+            <div>
+             <h2>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook text-dark-brown"></i></a> 
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square text-dark-brown"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram text-dark-brown"></i></a>
+            </h2>  
+            </div>
+        </div>
+    </div>
+</footer>
+
+
 {% endblock %}
