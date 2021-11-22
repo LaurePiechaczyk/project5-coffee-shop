@@ -101,7 +101,7 @@ html {
 .arrow-container {
     width: 100%;
     position:absolute;
-    top: 90vh;
+    top: 85vh;
 }
 
 .arrow-down {
@@ -164,11 +164,16 @@ html {
   
 }
 
-
+/* for the link about our coffee size of the nav*/
+#about-our-coffee {
+  position: absolute;
+  top: -164px;
+}
 
 .part-about-our-coffee {
     background: url('/media/main_picture.jpg') no-repeat center center fixed;
     background-size: cover; 
+    position: relative;
 }
 
 
@@ -383,6 +388,18 @@ html {
 .mobile-part2 {
     background-color: #c68d763b;
     
+}
+
+.mobile-index-about {
+    background: url('/media/main_picture.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+/* for the link about our coffee size of the nav*/
+#about-our-coffee-mobile {
+    position: absolute;
+    top: -116px;
 }
 
 
