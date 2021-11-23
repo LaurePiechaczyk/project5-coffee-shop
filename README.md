@@ -1,5 +1,6 @@
 https://mdbootstrap.com/docs/standard/navigation/footer/
 https://colorideas.net/roman-coffee-gray-kabul-dark-gray-smoked-color-palette/
+https://www.countryflags.com/ethiopia-flag-image/
 
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
