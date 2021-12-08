@@ -103,7 +103,7 @@ html {
 
 .part-intro {
     
-        background: url('/media/main_picture.jpg') no-repeat center center fixed;
+        background: url('https://res.cloudinary.com/dwccjr3n4/image/upload/v1636355937/static/img/main_picture.3a35f35e647c.jpg') no-repeat center center fixed;
         background-size: cover;
         height: calc(100vh - 164px);
     
@@ -182,7 +182,7 @@ html {
 }
 
 .part-about-our-coffee {
-    background: url('/media/main_picture.jpg') no-repeat center center fixed;
+    background: url('ttps://res.cloudinary.com/dwccjr3n4/image/upload/v1636355937/static/img/main_picture.3a35f35e647c.jpg') no-repeat center center fixed;
     background-size: cover; 
     position: relative;
 }
@@ -258,7 +258,7 @@ html {
 
 /* -----------------------------Index mobile version */
 .mobile-index {
-    background: url('/media/main_picture.jpg') no-repeat center center fixed;
+    background: url('https://res.cloudinary.com/dwccjr3n4/image/upload/v1636355937/static/img/main_picture.3a35f35e647c.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 100%;
 }
@@ -269,7 +269,7 @@ html {
 }
 
 .mobile-index-about {
-    background: url('/media/main_picture.jpg') no-repeat center center fixed;
+    background: url('https://res.cloudinary.com/dwccjr3n4/image/upload/v1636355937/static/img/main_picture.3a35f35e647c.jpg') no-repeat center center fixed;
     background-size: cover;
     position: relative;
 }
