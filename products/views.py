@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
-from .models import Product, Specie, Category
+from .models import Product, Specie, Category, Country
 from .forms import ProductForm
 
 # Create your views here.
@@ -39,6 +39,11 @@ def all_products(request):
             categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
+
+        if 'country' in request.GET:
+            countries = request.GET['country'].split(',')
+            products = products.filter(country__name__in=countries)
+            countries = Country.objects.filter(name__in=countries)
 
         if 'q' in request.GET:
             query = request.GET['q']

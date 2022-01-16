@@ -8,7 +8,6 @@ html {
     border:0;
 }
 
-
 /* from Bulma */
 .icon {
     align-items: center;
@@ -65,7 +64,6 @@ html {
     border: 1px solid #c68d76;
 }
 
-
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
@@ -100,9 +98,7 @@ html {
     cursor: pointer;
 }
 
-
 .part-intro {
-    
         background: url('https://res.cloudinary.com/dwccjr3n4/image/upload/v1636355937/static/img/main_picture.3a35f35e647c.jpg') no-repeat center center fixed;
         background-size: cover;
         height: calc(100vh - 164px);
@@ -111,7 +107,7 @@ html {
 
 .arrow-container {
     width: 100%;
-    position:absolute;
+    position: absolute;
     top: 85vh;
 }
 
@@ -145,7 +141,6 @@ html {
     width:90%;
     position: absolute;
     top:30px;
-
 }
 
 .coffe-pot .empty-pot {
@@ -172,7 +167,6 @@ html {
     position: absolute;
     left: 17px;
     top: -50px;
-  
 }
 
 /* for the link about our coffee size of the nav*/
@@ -187,9 +181,12 @@ html {
     position: relative;
 }
 
+.country a {
+    text-decoration: none;
+    color: black;
+}
 
 /* ------------------------------- bootstrap toasts */
-
 .message-container {
     position: fixed;
     top: 72px;
@@ -265,7 +262,6 @@ html {
 
 .mobile-part2 {
     background-color: #c68d763b;
-    
 }
 
 .mobile-index-about {
@@ -305,7 +301,6 @@ html {
     .header-container {
         padding-top: 116px;
     }
-    
 
     body {
         height: calc(100vh - 116px);

@@ -9,7 +9,6 @@
     </div>
 {% endblock %}
 
-
 {% block content %}
 
 <!-- For mobile version -->
@@ -144,8 +143,8 @@
 
 
             <div class="xl-container-index pt-3">
-                <div class="row no-gutters text-center">
-                    <div class="col-lg-3 p-1 xl-p-3" >
+                <div class="row no-gutters text-center country">
+                    <a href="{% url 'products' %}?country=Ethiopia" class="col-lg-3 p-1 xl-p-3" >
                         <div class="card  border-0 m-1">
                             <img class="card-img-top img-fluid" src="https://res.cloudinary.com/dwccjr3n4/image/upload/v1637691922/static/images/ethiopia.132d27161510.jpg" alt="">
                             <div class="card-footer bg-white pt-0 border-0 text-left">
@@ -156,8 +155,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 p-1 xl-p-3" >
+                    </a>
+                    <a href="{% url 'products' %}?country=Brazil" class="col-lg-3 p-1 xl-p-3" >
                         <div class="card  border-0 m-1">
                             <img class="card-img-top img-fluid" src="https://res.cloudinary.com/dwccjr3n4/image/upload/v1637691928/static/images/brazil.0b92647c2e07.jpg" alt="">
                             <div class="card-footer bg-white pt-0 border-0 text-left">
@@ -168,8 +167,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 p-1 xl-p-3" >
+                    </a>
+                    <a href="{% url 'products' %}?country=Togo" class="col-lg-3 p-1 xl-p-3" >
                         <div class="card  border-0 m-1">
                             <img class="card-img-top img-fluid" src="https://res.cloudinary.com/dwccjr3n4/image/upload/v1637691926/static/images/togo.cbb760105655.jpg" alt="">
                             <div class="card-footer bg-white pt-0 border-0 text-left">
@@ -180,8 +179,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 p-1 xl-p-3" >
+                    </a>
+                    <a href="{% url 'products' %}?country=Peru" class="col-lg-3 p-1 xl-p-3" >
                         <div class="card  border-0 m-1">
                             <img class="card-img-top img-fluid" src="https://res.cloudinary.com/dwccjr3n4/image/upload/v1637691923/static/images/peru.ba27c9e4e3dd.jpg" alt="">
                             <div class="card-footer bg-white pt-0 border-0 text-left">
@@ -192,7 +191,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -207,8 +206,8 @@
                 <strong>Coffee & Nature</strong>
             </h4>
             <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the'
+                We select coffee from reliable farmers in different parts of the world to offer the best quality. 
+                Our mission is to make you have a good time enjoying coffee in your everyday life.
 
             </p>
         </div>
@@ -217,7 +216,7 @@
             <h4 class="text-uppercase text-dark-beige mb-4">
                 <strong>Contact</strong>
             </h4>
-            <p><i class="fas fa-home me-3 text-dark-brown"></i> London, 20 greenstreet, UK</p>
+            <p><i class="fas fa-home me-3 text-dark-brown"></i> Favoritenstraße 1040 Vienna - Autria </p>
             <p>
                 <i class="fas fa-envelope me-3 text-dark-brown"></i>
                 coffee.nature@gmail.com
@@ -226,13 +225,10 @@
             <div>
              <h2>
                 <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook text-dark-brown"></i></a> 
-                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square text-dark-brown"></i></a>
-                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram text-dark-brown"></i></a>
             </h2>  
             </div>
         </div>
     </div>
 </footer>
-
 
 {% endblock %}
