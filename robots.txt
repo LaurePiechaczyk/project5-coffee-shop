@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /bag/
+sitemap: https://project5-coffee-and-nature.herokuapp.com/sitemap.xml

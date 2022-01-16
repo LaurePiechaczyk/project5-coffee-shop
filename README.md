@@ -142,6 +142,24 @@ If the delivery details have been previously recorded, the form will be pre-fill
 
 ## Future
 
+# SEO optimisation
+In order to rank higher in searches, optimation was performed.
+meta description and Key words were added. The chosen key words were:
+fresh coffee
+beans
+responsible farmers
+buy quality coffee
+Taste
+enjoy the moment
+roasted
+
+Links to information about responsible farmers was also added in order to offer the users valuable information as well as ranking higher in serches.  External link about Arabica and Robusta.
+
+
+https://www.xml-sitemaps.com/ To do the site-maps file 
+
+robots.txt
+
 
     
 # Technologies used
