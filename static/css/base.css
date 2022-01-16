@@ -290,7 +290,6 @@ html {
   }
 }
 
-/* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .header-container {
         padding-top: 164px;
@@ -304,5 +303,11 @@ html {
 
     body {
         height: calc(100vh - 116px);
+    }
+}
+
+@media (max-width: 370px) {
+    .header-container {
+        padding-top: 190px;
     }
 }
