@@ -160,6 +160,11 @@ https://www.xml-sitemaps.com/ To do the site-maps file
 
 robots.txt
 
+# Web Marketing
+facebook
+news letter registration
+
+# GDPR
 
     
 # Technologies used
