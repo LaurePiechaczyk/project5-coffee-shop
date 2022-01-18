@@ -15,6 +15,7 @@ def all_products(request):
     specie = None
     sort = None
     direction = None
+    country = None
 
     if request.GET:
         if 'sort' in request.GET:
