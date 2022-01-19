@@ -32,7 +32,7 @@ class Strongness(models.Model):
     class Meta:
         verbose_name_plural = 'Strongness'
         
-    name = models.DecimalField(max_digits=1, decimal_places=0)
+    name = models.CharField(max_length=254)
 
     def __str__(self):
         return self.name
