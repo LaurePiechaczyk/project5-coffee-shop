@@ -31,6 +31,8 @@ def all_products(request):
                     sortkey = f'-{sortkey}'
             products = products.order_by(sortkey)
 
+        current_sorting = f'{sort}_{direction}'
+
         if 'specie' in request.GET:
             species = request.GET['specie'].split(',')
             products = products.filter(specie__name__in=species)
@@ -58,6 +60,7 @@ def all_products(request):
     context = {
         'products': products,
         'search_term': query,
+        'current_sorting': current_sorting,
     }
 
     return render(request, 'products/products.html', context)
