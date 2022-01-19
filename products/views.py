@@ -12,10 +12,13 @@ def all_products(request):
 
     products = Product.objects.all()
     query = None
+    categories = None
+    category = None
     specie = None
     sort = None
     direction = None
     country = None
+    current_sorting = None
 
     if request.GET:
         if 'sort' in request.GET:
@@ -34,11 +37,13 @@ def all_products(request):
         current_sorting = f'{sort}_{direction}'
 
         if 'specie' in request.GET:
+            specie = request.GET['specie']
             species = request.GET['specie'].split(',')
             products = products.filter(specie__name__in=species)
             species = Specie.objects.filter(name__in=species)
         
         if 'category' in request.GET:
+            category = request.GET['category']
             categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
@@ -61,6 +66,8 @@ def all_products(request):
         'products': products,
         'search_term': query,
         'current_sorting': current_sorting,
+        'current_category': category,
+        'current_specie': specie,
     }
 
     return render(request, 'products/products.html', context)

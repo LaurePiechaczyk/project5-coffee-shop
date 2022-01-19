@@ -14,6 +14,13 @@
         <div class="row">
             <div class="col text-center mt-3">
                 <h2 class="logo-font">Products</h2>
+                {% if current_category == 'bean' %} Whole Beans {% endif %}
+                {% if current_category == 'ground' %} Ground Coffee {% endif %}
+                {% if current_specie == 'Arabica' %} Arabica {% endif %}
+                {% if current_specie == 'Robusta' %} Robusta {% endif %}
+                {% if current_specie == 'Blend' %} Blend coffee {% endif %}
+                
+
                 {% if current_sorting == 'price_asc' %} Sorted by ascending price {% endif %}
                 {% if current_sorting == 'rating_desc' %} Sorted by descending rating {% endif %}
                 {% if current_sorting == 'country_asc' %} Sorted by country {% endif %}
