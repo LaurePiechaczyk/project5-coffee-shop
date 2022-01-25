@@ -8,6 +8,10 @@ html {
     border:0;
 }
 
+.no-scroll-right{
+    overflow-x: hidden; 
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -126,7 +130,6 @@ html {
 .part-products {
     background-size: cover;
     min-height: calc(100vh - 164px); ;
-    background-color:#c68d763b;
     position:relative;
 }
 
@@ -179,6 +182,10 @@ html {
     background: url('https://res.cloudinary.com/dwccjr3n4/image/upload/v1636355937/static/img/main_picture.3a35f35e647c.jpg') no-repeat center center fixed;
     background-size: cover; 
     position: relative;
+}
+
+.text-farmers {
+    background-color: #f7d6cabb;
 }
 
 .country a {
