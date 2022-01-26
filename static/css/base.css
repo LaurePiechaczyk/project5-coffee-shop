@@ -36,7 +36,6 @@ html {
     width: 270px;
 }
 
-
 .btn-dark-brown {
     background: #53413e;
     color: white;
@@ -56,12 +55,12 @@ html {
     color: white;
 }
 
-
 .btn-outline-dark-brown {
     background: white;
     color: #53413e !important; /* use important to override link colors for <a> elements */
     border: 1px solid #53413e;
 }
+
 .btn-outline-dark-beige {
     background: white;
     color: #c68d76 !important; /* use important to override link colors for <a> elements */
@@ -165,6 +164,7 @@ html {
     width: 110px;
   
 }
+
 .coffe-cup .smoke {
     width: 50px;
     position: absolute;
@@ -267,10 +267,6 @@ html {
     height: 100%;
 }
 
-.mobile-part2 {
-    background-color: #c68d763b;
-}
-
 .mobile-index-about {
     background: url('https://res.cloudinary.com/dwccjr3n4/image/upload/v1636355937/static/img/main_picture.3a35f35e647c.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -311,6 +307,11 @@ html {
     body {
         height: calc(100vh - 116px);
     }
+
+    .part-intro {
+        height: calc(100vh - 110px);
+    
+}
 }
 
 @media (max-width: 370px) {
