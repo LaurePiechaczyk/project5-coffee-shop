@@ -152,6 +152,8 @@ buy quality coffee
 Taste
 enjoy the moment
 roasted
+Fair trade
+organic
 
 Links to information about responsible farmers was also added in order to offer the users valuable information as well as ranking higher in serches.  External link about Arabica and Robusta.
 
@@ -311,7 +313,9 @@ Some parts of the readme file from [farrelleoin93](https://github.com/farrelleoi
 ## Pictures credits
 https://www.countryflags.com/ethiopia-flag-image/
 
-## Inspiration website
+## Inspiration website / content home page
+https://beans.at/en/kaffeewissen/kaffeesorten-arabica-robusta/arabica
+https://www.thekitchn.com/coffee-basics-the-difference-b-41949
 
 
 # Acknowledgments
