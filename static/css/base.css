@@ -8,6 +8,11 @@ html {
     border:0;
 }
 
+.test{
+    border-color: red;
+}
+
+
 .no-scroll-right{
     overflow-x: hidden; 
 }
