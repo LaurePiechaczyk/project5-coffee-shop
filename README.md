@@ -38,6 +38,13 @@ CVC: Any three digits
 
 
 # Target audience
+The target audience is those who want to buy quality coffee while being fair to the farmers and respecting nature.
+
+The audience is expected to be curious to try a new brand of coffee and to be used to enjoying the coffee moment.
+
+Customers are expected to have their own coffee machine.
+
+Custumer are also expected to be nature lovers and could be inspired by anything reminiscent of nature.
 
 # User Experience
 The details of the design evolution, user project can be found **[here](UXEVOLUTION.md)**. It includes diagrams, pictures, explanation of changes in the project process.
@@ -51,7 +58,7 @@ The user stories for this project are:
 
 ## Design Choices
 - ### Fonts 
-Default Font from bootstrap were kept, i.e:"Helvetica Neue", Helvetica, Arial, sans-serif, because it looks nice and it is and easy to read.
+Default Font from bootstrap were kept, i.e:"Helvetica Neue", Helvetica, Arial, sans-serif, because it looks nice, professionnal and it is and easy to read.
 
 - ### Colors
 As the idea of the project is to be inspired by nature, colors inspired by nature were chosen. The green color of the buttons represents the vegetation and the brown color represents the earth. The colors were also inspired by this [palette ](https://colorideas.net/roman-coffee-gray-kabul-dark-gray-smoked-color-palette/)
@@ -83,8 +90,6 @@ The search bar finds cafes that contain the word the user is looking for, either
 - Toasts
 Toasts appear on all pages and provide the user with important information. These toasts also display the coffees that the user may have in their cart.
 
-- Footer
-The footer contains information about the store, such as its phone number, address and email address.
 
 ## Page-specific
 
@@ -98,6 +103,9 @@ Under the hero section, there is a section where 4 coffees are displayed randoml
 The next section is about the coffees presented as coming from responsible farmers, and then the countries of origin of the coffees on sale.
 
 <h3 align="center"><img src="static/images/readme/responsible_farmers.png"></h3>
+
+The footer is only present on the home page to keep the user focused on the products. However, in order for users to quickly find product information and store contact information, links are present in the navbar to go directly to the footer to view the information.
+The footer contains information about the store, such as its phone number, address and email address and a link to the facebook page of the shop.
 
 - ### Shop
 
@@ -134,13 +142,14 @@ Payment is handled by Stripe.
 ### Registered users
 If the delivery details have been previously recorded, the form will be pre-filled with them.
 
-
-
 - ### Add edit delete
 
 
 
 ## Future
+- DEsign of the product packaging.
+- Blog about coffee
+
 
 # SEO optimisation
 In order to rank higher in searches, optimation was performed.
@@ -165,6 +174,8 @@ robots.txt
 # Web Marketing
 facebook
 news letter registration
+
+Another strategy is to stimulate the curiosity of users by naming products after nature. Similarly, on the homepage, random products are displayed to draw the user's attention to new products.
 
 # GDPR
 
@@ -268,6 +279,22 @@ python manage.py migrate
 python manage.py createsuperuser
 ```
 
+### Load the data
+Note that the products must be loaded at the end because they require the previous data.
+```
+python3 manage.py loaddata categories
+
+python3 manage.py loaddata countries
+
+python3 manage.py loaddata roast
+
+python3 manage.py loaddata species
+
+python3 manage.py loaddata strongness
+
+python3 manage.py loaddata products
+```
+
 ### The app can now be run locally using
 ```
 python manage.py runserver
@@ -290,9 +317,11 @@ ALLOWED_HOSTS = ['YOUR-APP-NAME.herokuapp.com', 'localhost']
 - The steps from the previous section have to be repeated to load data in the new database (can be done in the local environment):
   - Applying database migrations
   - Creating a new superuser
+  - Load data
 
 
 ## Cloudinary
+Pictures have been stored in cloudinary.
 
 # Credits
 
