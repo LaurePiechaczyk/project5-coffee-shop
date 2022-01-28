@@ -1,0 +1,8 @@
+[
+    {"pk":"2","model":"products.roast", "fields": {"name":"light"}},
+    {"pk":"4","model":"products.roast", "fields": {"name":"medium"}},
+    {"pk":"3","model":"products.roast", "fields": {"name":"light-medium"}},
+    {"pk":"6","model":"products.roast", "fields": {"name":"dark"}},
+    {"pk":"5","model":"products.roast", "fields": {"name":"medium-dark"}},
+    {"pk":"1","model":"products.roast", "fields": {"name":"light-white"}}
+    ]
