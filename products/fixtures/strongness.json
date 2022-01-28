@@ -1,0 +1,7 @@
+[
+    {"pk":"1","model":"products.strongness", "fields": {"name":"1"}},
+    {"pk":"2","model":"products.strongness", "fields": {"name":"2"}},
+    {"pk":"3","model":"products.strongness", "fields": {"name":"3"}},
+    {"pk":"4","model":"products.strongness", "fields": {"name":"4"}},
+    {"pk":"5","model":"products.strongness", "fields": {"name":"5"}}
+    ]

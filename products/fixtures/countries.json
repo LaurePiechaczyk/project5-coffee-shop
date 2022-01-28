@@ -1,0 +1,6 @@
+[
+    {"model":"products.country", "pk":"1", "fields": {"name":"Brazil"}},
+    {"model":"products.country","pk":"2","fields": {"name":"Ethiopia"}},
+    {"model":"products.country","pk":"3","fields": {"name":"Peru"}},
+    {"model":"products.country","pk":"4","fields": {"name":"Togo"}}
+]

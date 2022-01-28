@@ -1,0 +1,4 @@
+[
+    {"model":"products.category","pk":"1", "fields": {"name":"bean"}},
+    {"model":"products.category","pk":"2","fields": {"name":"ground"}}
+]
