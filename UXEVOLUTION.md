@@ -36,3 +36,24 @@ Models were designed as the folling diagram:
 The design of the site evolved during the project as I received feedback from my friends, family, mentor and got new ideas while making the project.
 
 
+## Design Choices
+- ### Fonts 
+Default Font from bootstrap were kept, i.e:"Helvetica Neue", Helvetica, Arial, sans-serif, because it looks nice, professionnal and it is and easy to read.
+
+- ### Colors
+As the idea of the project is to be inspired by nature, colors inspired by nature were chosen. The green color of the buttons represents the vegetation and the brown color represents the earth. The colors were also inspired by this [palette ](https://colorideas.net/roman-coffee-gray-kabul-dark-gray-smoked-color-palette/)
+
+- ### Icons
+Icons were used because they are visually pleasing and help users navigate the site. The icons were provided by Font Awesome. 
+
+## Database model
+A relational database was used for this project. The database can be seen in the diagram below:
+
+## Wireframes
+
+### Home page
+<details>
+<h3 align="center"><img src=""></h3>
+</details>
+
+

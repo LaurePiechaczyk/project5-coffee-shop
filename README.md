@@ -51,29 +51,55 @@ The details of the design evolution, user project can be found **[here](UXEVOLUT
 
 ## User Story
 
-The user stories for this project are:
+The user stories for this project have been mapped in the github repository under the issues and is the following:
 
-<h3 align="center"><img src=""></h3>
+- As a Site admin/superuser, I want to delete existing coffees, so that I can be up to date with the available products.
 
+- As a Site admin/superuser, I want to edit existing coffees, so that I can update the website.
 
-## Design Choices
-- ### Fonts 
-Default Font from bootstrap were kept, i.e:"Helvetica Neue", Helvetica, Arial, sans-serif, because it looks nice, professionnal and it is and easy to read.
+- As a Site admin/superuser, I want to add new products to the website, so that continuously make new coffees available.
 
-- ### Colors
-As the idea of the project is to be inspired by nature, colors inspired by nature were chosen. The green color of the buttons represents the vegetation and the brown color represents the earth. The colors were also inspired by this [palette ](https://colorideas.net/roman-coffee-gray-kabul-dark-gray-smoked-color-palette/)
+- As a Registered user, I want to Easily recover my password in case I forget it, so that Recover access to my account.
 
-- ### Icons
-Icons were used because they are visually pleasing and help users navigate the site. The icons were provided by Font Awesome. 
+- As a Coffee Shopper, I want to Receive email confirmation of my order, so that confirm that my order was successful.
 
+- As a Registered user, I want to Make secure payments, so that ensure that my payments are securely handled.
 
-## Wireframes
+- As a Registered user, I want to review my purchase at the checkout, so that decide whether to add or edit the order before confirming.
 
-### Home page
-<details>
-<h3 align="center"><img src=""></h3>
-</details>
+- As a Registered user, I want to leave a review, so that inform future users about the coffee.
 
+- As a Registered user, I want to store my order history, so that access my previous orders.
+
+- As a Registered user, I want to update my details, so that I can update my address and other details in case they change.
+
+- As a Registered user, I want to store my details for later use, so that I avoid having to fill in my details each time.
+
+- As a Registered user, I want to log in and log out of my profile account, so that so that my personal information will be safe.
+
+- As a Unregistered user, I want to easily register an account, so that use the site easier in the future.
+
+- As a Unregistered user, I want to Access contact details, so that get in touch with the coffee shop.
+
+- As a Unregistered user, I want to filter coffee types, so that find specific types of coffees.
+
+- As a Unregistered user, I want to easily navigate the site, so that I can find what I am looking for quickly.
+
+- As a Shopper, I want to Search for a product by name or description, so that I find the products I am interrested in.
+
+- As a Coffee Shopper, I want to Easelly select the quantity of product, so that I buy the amount I want.
+
+- As a Coffee Shopper, I want to Know how the beans have been roasted, so that I can buy the roasted bean I like.
+
+- As a Coffee Shopper, I want to Know the strongness of the coffee, so that I can buy the strongness I want.
+
+- As a Coffee Shopper, I want to Know the specie of the coffee, so that I can buy my favourite specie.
+
+- As a Shopper, I want to easely view the detail of my bag, so that I am aware of the total price and products chosen.
+
+- As a Shopper, I want to view a list of products, so that I can select some to buy them.
+
+- As a Shopper, I want to view individual product details, so that I know the price, the details, the rating.
 
 # Features 
 
@@ -144,11 +170,17 @@ If the delivery details have been previously recorded, the form will be pre-fill
 
 - ### Add edit delete
 
+## Access protection
 
+Routes are protected using Django's @login_required route decorators to ensure that non-super-users are not able to interfere with the database.
+
+## REdirecting pages
+Pages for 404 and 500 errors were created to inform the user when something goes wrong.
 
 ## Future
-- DEsign of the product packaging.
+- Design of the product packaging.
 - Blog about coffee
+- Review
 
 
 # SEO optimisation
@@ -234,6 +266,8 @@ Another strategy is to stimulate the curiosity of users by naming products after
 - [Inkscape](https://inkscape.org/) | used to create the favicon
 
 - [heroku]
+- [gmail]() used to send emails
+- [mailchimp]() used to subscribe to newsletters
 
 # Tests
 The details of testing can be found [here](TESTING.md).
