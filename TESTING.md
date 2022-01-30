@@ -2,17 +2,19 @@
 
 ## Code validation
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-- [W3C Markup Validation Homepage | Results]()
-- [W3C Markup Validation Products | Results]()
-- [W3C Markup Validation Product details | Results]()
-- [W3C Markup Validation Checkout | Results]()
+- [W3C Markup Validation Homepage | Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fproject5-coffee-and-nature.herokuapp.com%2F)
+- [W3C Markup Validation Products | Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fproject5-coffee-and-nature.herokuapp.com%2Fproducts%2F)
+- [W3C Markup Validation Product details | Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fproject5-coffee-and-nature.herokuapp.com%2Fproducts%2F1%2F)
+- [W3C Markup Validation Bag | Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fproject5-coffee-and-nature.herokuapp.com%2Fbag%2F)
 
-- [W3C Markup Validation Login | Results]()
-- [W3C Markup Validation Register | Results]()
-- [W3C Markup Validation Logout | Results]()
+- [W3C Markup Validation Checkout | Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fproject5-coffee-and-nature.herokuapp.com%2Fcheckout%2F)
+
+- [W3C Markup Validation Login | Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fproject5-coffee-and-nature.herokuapp.com%2Faccounts%2Flogin%2F)
+- [W3C Markup Validation Register | Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fproject5-coffee-and-nature.herokuapp.com%2Faccounts%2Fsignup%2F)
+- [W3C Markup Validation Logout | Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fproject5-coffee-and-nature.herokuapp.com%2Faccounts%2Flogout%2F)
 
 
-- [W3C CSS Validator | Results]()
+- [W3C CSS Validator | Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fproject5-coffee-and-nature.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=fr)
 
 
 Javascipt code was tested using [jshint](https://jshint.com/) and no error was found with /*jshint esversion: 6 */
@@ -70,7 +72,21 @@ Python the code was passed in [PEP8 online checker](http://pep8online.com)
 - As a Shopper, I want to view individual product details, so that I know the price, the details, the rating.
 
 ## Manual testing
-### Top navbar
+
+### Test on browsers
+The website was tested on computers using the browsers:
+- [Google Chrome](https://en.wikipedia.org/wiki/Google_Chrome)
+- [Firefox](https://en.wikipedia.org/wiki/Firefox) 
+- [internet explorer](https://en.wikipedia.org/wiki/Internet_Explorer)
+- [Microsoft edge](https://en.wikipedia.org/wiki/Microsoft_Edge)
+- [Safary](https://en.wikipedia.org/wiki/Safari_(software))
+
+### Test on devices
+[Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to see how the site looks like on various phones and tablets. Additionally, after deployment the website was tested on various phones including iphones and Samsung phones.
+
+
+### Testing the website manually
+#### Top navbar
 - Clicking COFFEE & NATURE in the top navbar directs the user to the home page.
     - CHECK
 
@@ -80,7 +96,84 @@ Python the code was passed in [PEP8 online checker](http://pep8online.com)
 - Clicking the bag icon brings to the shopping bag page.
     - CHECK
 
+- User not loged in "Account" is displayed and user logged in "My account" is displayed.
+    - CHECK
+
+- User not loged in: dropdown menu brings the user to the "Register" and "login" pages.  User logged in: dropdown menu brings the user to the "My Profile" and "logout" pages.
+    - CHECK
+
+- Super user is loged in:  dropdown menu brings the user to the "Add a Product", "My Profile" and "logout" pages.
+    - CHECK
+
+#### Bottom navbar
+- Confirm that all the navigation links bring the user to the relevant pages with the relevant products displayed in products.
+    - CHECK
+
 - Reducing the screen size to mobile and tablet screen sizes to have Burger icon appearing.
     - CHECK
 
-If user is not logged in
+#### Home page
+
+- Confirm that the "SHOP NOW" button brings the user to the product page.
+    - CHECK
+
+- Confirm that 4 random products are displayed and when clicked link to the detail page of the product.
+    - CHECK
+
+- Confirm that clicking on the countries flag, it redirects to the product page with the relevant products displayed.
+    - CHECK
+
+#### Product page
+- Confirm that all products are displayed
+   - CHECK
+- Confirm that clicking on a product brings to the product details page for the product.
+   - CHECK
+
+#### Product details page
+
+- Confirm the Name, Characteristics are the good one.
+   - CHECK
+ 
+- Confirm the Quantity can be changed.
+   - CHECK
+
+- Confirm the superuser have links to edit and delete the product
+   - CHECK
+
+- Confirm the correct page redirection when "KEEP SHOPPING" and "ADD TO BAG" are clicked
+   - CHECK
+
+
+#### Bag
+- Confirm all products are in the bag.
+    - CHECK
+- Confirm the quantity can be adjusted.
+   - CHECK
+- Confirm the amount is correct
+   - CHECK
+- Confirm the delivery cost is correct with orders under and over 50 euros
+   - CHECK
+- Confirm the correct page redirection when "KEEP SHOPPING" and "SECURE CHECKOUT" are clicked
+   - CHECK
+
+#### Checkout page
+- Confirm the order detail is correct
+
+- confirm the user received and confirmation email
+
+- Confirm register user can save delivery information in the profile
+
+- Confirm test payment can be done with the test card number
+
+#### Profile page
+- Confirm the user can save information
+- Confirm user can update information
+- Confirm previous orders can be seen
+
+#### Toasts
+- Confirm that user receives relevant feedback
+
+#### Responsivness
+- Confirm the ecommerce works on all devices
+
+## Automated testing
