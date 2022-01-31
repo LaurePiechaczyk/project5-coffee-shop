@@ -46,12 +46,12 @@ Customers are expected to have their own coffee machine.
 
 Custumer are also expected to be nature lovers and could be inspired by anything reminiscent of nature.
 
-# User Experience
-The details of the design evolution, user project can be found **[here](UXEVOLUTION.md)**. It includes diagrams, pictures, explanation of changes in the project process.
+# User Experience and Organisation
+The details of the design, data organisation, wireframes can be found **[here](UX.md)**.
 
 ## User Story
 
-The user stories for this project have been mapped in the github repository under the issues and is the following:
+The user stories for this project have been mapped in the github repository under the issues and are the following:
 
 - As a Site admin/superuser, I want to delete existing coffees, so that I can be up to date with the available products.
 
@@ -105,15 +105,19 @@ The user stories for this project have been mapped in the github repository unde
 
 ## Site-wide
 - Responsiveness
+
 The website is designed to be suitable for all devices. For example, the responsive navigation bar turns into a burger button for phone screens.
 
 - Navbar
+
 The navigation bar is consistent across all pages of the site and follows common practices that users have come to expect from navigation bars, e.g. a drop down menu for burgers appears on small devices, purchases are present with the price below.
 
 - Search bar
+
 The search bar finds cafes that contain the word the user is looking for, either in its name or in its description.
 
 - Toasts
+
 Toasts appear on all pages and provide the user with important information. These toasts also display the coffees that the user may have in their cart.
 
 
@@ -138,7 +142,7 @@ The footer contains information about the store, such as its phone number, addre
 The coffees on sale are displayed on the store page.
 Users can filter the coffees by species (Arabica, Robusta, mix of these 2 species), and by whole or ground beans in the COFFEE section of the navigation bar. 
 
-Users have the possibility to sort coffees by price, grade, category, country, robustness, roasting in "SORT BY" in the navigation bar.
+Users have the possibility to sort coffees by price, category, country, robustness, roasting in "SORT BY" in the navigation bar.
 
 <h3 align="center"><img src="static/images/readme/shop.png"></h3>
 
@@ -168,13 +172,15 @@ Payment is handled by Stripe.
 ### Registered users
 If the delivery details have been previously recorded, the form will be pre-filled with them.
 
-- ### Add edit delete
+- ### CRUD (Create, Read, Update, Delete)
+- Users can save in "My Profile" information and edit them.
+- Superusers can create new products (in "Add a product"), edit and delete products.
 
 ## Access protection
 
 Routes are protected using Django's @login_required route decorators to ensure that non-super-users are not able to interfere with the database.
 
-## REdirecting pages
+## Redirecting pages
 Pages for 404 and 500 errors were created to inform the user when something goes wrong.
 
 ## Future
@@ -268,6 +274,7 @@ Another strategy is to stimulate the curiosity of users by naming products after
 - [heroku]
 - [gmail]() used to send emails
 - [mailchimp]() used to subscribe to newsletters
+- [dbdiagram](dbdiagram.io) | used to make a ciagrame of the Database
 
 # Tests
 The details of testing can be found [here](TESTING.md).

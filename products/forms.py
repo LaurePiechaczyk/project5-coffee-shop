@@ -13,4 +13,4 @@ class ProductForm(forms.ModelForm):
         categories = Category.objects.all()
 
         for field_name, field in self.fields.items():
-            field.widget.attrs['class'] = 'rounded-0'
+            field.widget.attrs['class'] = 'rounded-0 border-dark-brown'

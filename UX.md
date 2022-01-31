@@ -1,4 +1,4 @@
-# User design evolution
+# UX
 
 ## Origin of the idea
 For the formation with code institute the last project of my formation is to make an ecommerce. I decided to make an ecommerce that sells coffee because I love coffee and I find fresh coffee very pleasant to drink.
@@ -14,27 +14,18 @@ I invented and created the coffee packaging. To do this I researched the type of
 
  TOGO --> Sedimentary rocks (coal, chalk, breccia)
 
- I then designed the packaging using colors inspired by the product name.
-
-Then, the characteristics of the products were written in an excel file where I tried to keep the characteristics consistent with the type of coffee and the country of origin.
- <h3 align="center"><img src="static/images/readme/excel_products_Charac.png"></h3>
-
+I then designed the packaging using colors inspired by the product name.
 
 ### Data organisation:
-<h3 align="center"><img src="static/images/readme/csv-with-data-2020.png"></h3>
+The characteristics of the products were written in an excel file where I tried to keep the characteristics consistent with the type of coffee and the country of origin.
+From the excel file with the characteristics, I started to design the models for the products and later on made json file with the information to load the data (to be found in "products --> fixtures")
 
-## Project 5 planification
+## Database model
+A relational database was used for this project. The database can be seen in the diagram below:
+<h3 align="center"><img src="static/images/readme/database.png"></h3>
 
-The tasks have also been entered into Jira, which makes it possible to follow the progress of the project. For a team project, Jira also allows you to work as a team on a project. 
-<h3 align="center"><img src=""></h3>
-
-### Data model
-Models were designed as the folling diagram:
-<h3 align="center"><img src=""></h3>
-
-## Evolution of the design.
-The design of the site evolved during the project as I received feedback from my friends, family, mentor and got new ideas while making the project.
-
+## Project 5 planification and evolution
+The tasks have also been entered into Github under issues and project.
 
 ## Design Choices
 - ### Fonts 
@@ -46,14 +37,6 @@ As the idea of the project is to be inspired by nature, colors inspired by natur
 - ### Icons
 Icons were used because they are visually pleasing and help users navigate the site. The icons were provided by Font Awesome. 
 
-## Database model
-A relational database was used for this project. The database can be seen in the diagram below:
-
 ## Wireframes
-
-### Home page
-<details>
-<h3 align="center"><img src=""></h3>
-</details>
 
 
