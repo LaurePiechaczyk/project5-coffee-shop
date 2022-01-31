@@ -1,3 +1,7 @@
+.country-field-padding {
+    padding: 8px 12px !important;
+}
+
 .StripeElement,
 .stripe-style-input {
   box-sizing: border-box;
