@@ -48,7 +48,7 @@ html {
 
 .btn-green {
     background: #65a575;
-    color: white;
+    color: white !important;
 }
 .btn-green:hover {
     background: #406f5c;
@@ -309,8 +309,7 @@ html {
     }
 
     .part-intro {
-        height: calc(100vh - 110px);
-    
+        height: calc(100vh - 110px);  
 }
 }
 

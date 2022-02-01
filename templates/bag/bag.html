@@ -31,7 +31,7 @@
                                     <th scope="col">Product Info</th>
                                     <th scope="col"></th>
                                     <th scope="col">Price</th>
-                                    <th scope="col">Qty</th>
+                                    <th scope="col">Quantity</th>
                                     <th scope="col">Subtotal</th>
                                 </tr>
                             </thead>
@@ -60,7 +60,7 @@
                                             <div class="form-group">
                                                 <div class="input-group">
                                                     <div class="input-group-prepend">
-                                                        <button class="decrement-qty btn btn-sm rounded-0" 
+                                                        <button class="decrement-qty btn btn-sm" 
                                                             data-item_id="{{ item.item_id }}" id="decrement-qty_{{ item.item_id }}">
                                                             <span>
                                                                 <i class="fas fa-minus fa-sm"></i>
@@ -72,7 +72,7 @@
                                                         data-item_id="{{ item.item_id }}"
                                                         id="id_qty_{{ item.item_id }}">
                                                     <div class="input-group-append">
-                                                        <button class="increment-qty btn btn-sm rounded-0"
+                                                        <button class="increment-qty btn btn-sm"
                                                             data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}">
                                                             <span>
                                                                 <i class="fas fa-plus fa-sm"></i>
@@ -82,8 +82,8 @@
                                                 </div>
                                             </div>
                                         </form>
-                                        <a class="update-link text-info"><small>Update</small></a>
-                                        <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}"><small>Remove</small></a>
+                                        <a class="update-link btn btn-green btn-sm rounded-0 mb-2 mb-md-0">UPDATE</a>
+                                        <a class="remove-item btn btn-outline-dark-brown btn-sm rounded-0 float-lg-right" id="remove_{{ item.item_id }}">REMOVE</a>
                                     </td>
                                     <td class="py-3">
                                         <p class="my-0">€{{ item.product.price | calc_subtotal:item.quantity }}</p>
@@ -104,13 +104,13 @@
                             </tr>
                             <tr>
                                 <td colspan="5" class="text-right">
-                                    <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
+                                    <a href="{% url 'products' %}" class="btn btn-lg">
                                         <span class="icon">
                                             <i class="fas fa-chevron-left"></i>
                                         </span>
                                         <span class="text-uppercase">Keep Shopping</span>
                                     </a>
-                                    <a href="{% url 'checkout' %}" class="btn btn-green  rounded-0 btn-lg">
+                                    <a href="{% url 'checkout' %}" class="btn btn-green rounded-0 btn-lg">
                                         <span class="text-uppercase ">Secure Checkout</span>
                                         <span class="icon">
                                             <i class="fas fa-lock"></i>
