@@ -193,6 +193,13 @@ html {
     color: black;
 }
 
+
+/* ------------------------------- allauth forms */
+.allauth-form input{
+    border: 1px solid #53413e;
+    border-radius: 0px; 
+}
+
 /* ------------------------------- bootstrap toasts */
 .message-container {
     position: fixed;
