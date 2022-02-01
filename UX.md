@@ -25,7 +25,7 @@ A relational database was used for this project. The database can be seen in the
 <h3 align="center"><img src="static/images/readme/database.png"></h3>
 
 ## Project 5 planification and evolution
-The tasks have also been entered into Github under issues and project.
+Tasks and user stories have been entered into Github under issues and project.
 
 ## Design Choices
 - ### Fonts 
@@ -39,4 +39,41 @@ Icons were used because they are visually pleasing and help users navigate the s
 
 ## Wireframes
 
+<details>
+    <summary>Home</summary>
+    <h3 align="center"><img src="static/images/readme/home_wireframe.png"></h3>  
+</details>
+
+<details>
+    <summary>Products</summary>
+    <h3 align="center"><img src="static/images/readme/products_wireframe.png"></h3>  
+</details>
+
+<details>
+    <summary>Product Detail</summary>
+    <h3 align="center"><img src="static/images/readme/product_detail_wireframe.png"></h3>  
+</details>
+
+<details>
+    <summary>Bag</summary>
+    <h3 align="center"><img src="static/images/readme/bag_wireframe.png"></h3>  
+</details>
+
+<details>
+    <summary>Checkout</summary>
+    <h3 align="center"><img src="static/images/readme/checkout_wireframe.png"></h3>  
+</details>
+
+<details>
+    <summary>Profile</summary>
+    <h3 align="center"><img src="static/images/readme/profile_wireframe.png"></h3>  
+</details>
+
+<details>
+    <summary>Add Product</summary>
+    <h3 align="center"><img src="static/images/readme/add_product_wireframe.png"></h3>  
+</details>
+
+### Login / out /register
+It was planed to use Allauth for the system and to adapt the default templates from Allauth to match the rest of the website.
 
