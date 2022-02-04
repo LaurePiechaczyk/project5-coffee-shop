@@ -176,4 +176,16 @@ The website was tested on computers using the browsers:
 #### Responsivness
 - Confirm the ecommerce works on all devices
 
+
+#### Registration
+- Confirm email is received for registration.
+- Confirm link to register from the email.
+
+#### ADD / DELETE/ EDIT Products
+- Confirm than only super user can add, edit delete products
+    - Entering the url when normal user or no user login
+- Confirm than if no picture is loaded, the default picture will show off.
+
+
+
 ## Automated testing
