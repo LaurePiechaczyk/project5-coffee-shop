@@ -39,4 +39,5 @@ class OrderForm(forms.ModelForm):
             self.fields[field].label = False
 
             if field == 'country':
-                self.fields[field].widget.attrs['class'] = 'country-field-padding stripe-style-input'
+                self.fields[field].widget.attrs['class'] = (
+                    'country-field-padding stripe-style-input')
