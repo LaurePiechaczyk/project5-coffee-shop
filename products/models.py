@@ -52,11 +52,29 @@ class Roast(models.Model):
 
 
 class Product(models.Model):
-    category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
-    country = models.ForeignKey('Country', null=True, blank=True, on_delete=models.SET_NULL)
-    strongness = models.ForeignKey('Strongness', null=True, blank=True, on_delete=models.SET_NULL)
-    specie = models.ForeignKey('Specie', null=True, blank=True, on_delete=models.SET_NULL)
-    roast = models.ForeignKey('Roast', null=True, blank=True, on_delete=models.SET_NULL)
+    category = models.ForeignKey(
+        'Category',
+        null=True,
+        blank=True,
+        on_delete=models.SET_NULL)
+    country = models.ForeignKey(
+        'Country',
+        null=True, blank=True,
+        on_delete=models.SET_NULL)
+    strongness = models.ForeignKey(
+        'Strongness',
+        null=True, blank=True,
+        on_delete=models.SET_NULL)
+    specie = models.ForeignKey(
+        'Specie',
+        null=True,
+        blank=True,
+        on_delete=models.SET_NULL)
+    roast = models.ForeignKey(
+        'Roast',
+        null=True,
+        blank=True,
+        on_delete=models.SET_NULL)
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
     description = models.TextField()

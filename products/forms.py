@@ -1,5 +1,5 @@
 from django import forms
-from .models import Product, Category
+from .models import Product
 
 
 class ProductForm(forms.ModelForm):
@@ -10,7 +10,6 @@ class ProductForm(forms.ModelForm):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        categories = Category.objects.all()
 
         for field_name, field in self.fields.items():
             field.widget.attrs['class'] = 'rounded-0 border-dark-brown'
