@@ -6,8 +6,8 @@ from django.db.models.functions import Lower
 from .models import Product, Specie, Category, Country
 from .forms import ProductForm
 
-# Create your views here.
 
+# Create your views here.
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
 
@@ -42,7 +42,7 @@ def all_products(request):
             species = request.GET['specie'].split(',')
             products = products.filter(specie__name__in=species)
             species = Specie.objects.filter(name__in=species)
-        
+
         if 'category' in request.GET:
             category = request.GET['category']
             categories = request.GET['category'].split(',')
@@ -59,7 +59,7 @@ def all_products(request):
             if not query:
                 messages.error(request, "You didn't enter any search criteria!")
                 return redirect(reverse('products'))
-            
+
             queries = Q(name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
 
@@ -85,6 +85,7 @@ def product_detail(request, product_id):
 
     return render(request, 'products/product_detail.html', context)
 
+
 @login_required
 def add_product(request):
     """ Add a product to the store """
@@ -102,7 +103,7 @@ def add_product(request):
             messages.error(request, 'Failed to add product. Please ensure the form is valid.')
     else:
         form = ProductForm()
-        
+
     template = 'products/add_product.html'
     context = {
         'form': form,

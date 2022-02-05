@@ -96,7 +96,7 @@ TEMPLATES = [
             'builtins': [
                 'crispy_forms.templatetags.crispy_forms_tags',
                 'crispy_forms.templatetags.crispy_forms_field',
-            ]            
+            ]
         },
     },
 ]
@@ -109,7 +109,7 @@ AUTHENTICATION_BACKENDS = [
 
     # `allauth` specific authentication methods, such as login by e-mail
     'allauth.account.auth_backends.AuthenticationBackend',
-]  ########### is it ()?
+]
 
 SITE_ID = 1
 
@@ -134,7 +134,7 @@ WSGI_APPLICATION = 'coffe_shop.wsgi.application'
 #        'ENGINE': 'django.db.backends.sqlite3',
 #        'NAME': BASE_DIR / 'db.sqlite3',
 #    }
-#}
+# }
 
 DATABASES = {
     'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
