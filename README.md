@@ -276,6 +276,8 @@ Another strategy is to stimulate the curiosity of users by naming products after
 - [mailchimp]() used to subscribe to newsletters
 - [dbdiagram](dbdiagram.io) | used to make a ciagrame of the Database
 
+- [favicon-converter](https://favicon.io/favicon-converter/) | to generate the favicon from a picture in png format
+ 
 # Tests
 The details of testing can be found [here](TESTING.md).
 
