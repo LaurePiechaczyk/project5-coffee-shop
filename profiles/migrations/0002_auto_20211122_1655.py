@@ -14,7 +14,10 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='userprofile',
             name='default_country',
-            field=django_countries.fields.CountryField(blank=True, max_length=2, null=True),
+            field=django_countries.fields.CountryField(
+                blank=True,
+                max_length=2,
+                null=True),
         ),
         migrations.AddField(
             model_name='userprofile',

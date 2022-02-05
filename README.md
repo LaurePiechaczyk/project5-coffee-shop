@@ -46,48 +46,78 @@ Customers are expected to have their own coffee machine.
 
 Custumer are also expected to be nature lovers and could be inspired by anything reminiscent of nature.
 
-# User Experience
-The details of the design evolution, user project can be found **[here](UXEVOLUTION.md)**. It includes diagrams, pictures, explanation of changes in the project process.
+# User Experience and Organisation
+The details of the design, data organisation, wireframes can be found **[here](UX.md)**.
 
 ## User Story
 
-The user stories for this project are:
+The user stories for this project have been mapped in the github repository under the issues and are the following:
 
-<h3 align="center"><img src=""></h3>
+- As a Site admin/superuser, I want to delete existing coffees, so that I can be up to date with the available products.
 
+- As a Site admin/superuser, I want to edit existing coffees, so that I can update the website.
 
-## Design Choices
-- ### Fonts 
-Default Font from bootstrap were kept, i.e:"Helvetica Neue", Helvetica, Arial, sans-serif, because it looks nice, professionnal and it is and easy to read.
+- As a Site admin/superuser, I want to add new products to the website, so that continuously make new coffees available.
 
-- ### Colors
-As the idea of the project is to be inspired by nature, colors inspired by nature were chosen. The green color of the buttons represents the vegetation and the brown color represents the earth. The colors were also inspired by this [palette ](https://colorideas.net/roman-coffee-gray-kabul-dark-gray-smoked-color-palette/)
+- As a Registered user, I want to Easily recover my password in case I forget it, so that Recover access to my account.
 
-- ### Icons
-Icons were used because they are visually pleasing and help users navigate the site. The icons were provided by Font Awesome. 
+- As a Coffee Shopper, I want to Receive email confirmation of my order, so that confirm that my order was successful.
 
+- As a Registered user, I want to Make secure payments, so that ensure that my payments are securely handled.
 
-## Wireframes
+- As a Registered user, I want to review my purchase at the checkout, so that decide whether to add or edit the order before confirming.
 
-### Home page
-<details>
-<h3 align="center"><img src=""></h3>
-</details>
+- As a Registered user, I want to leave a review, so that inform future users about the coffee.
 
+- As a Registered user, I want to store my order history, so that access my previous orders.
+
+- As a Registered user, I want to update my details, so that I can update my address and other details in case they change.
+
+- As a Registered user, I want to store my details for later use, so that I avoid having to fill in my details each time.
+
+- As a Registered user, I want to log in and log out of my profile account, so that so that my personal information will be safe.
+
+- As a Unregistered user, I want to easily register an account, so that use the site easier in the future.
+
+- As a Unregistered user, I want to Access contact details, so that get in touch with the coffee shop.
+
+- As a Unregistered user, I want to filter coffee types, so that find specific types of coffees.
+
+- As a Unregistered user, I want to easily navigate the site, so that I can find what I am looking for quickly.
+
+- As a Shopper, I want to Search for a product by name or description, so that I find the products I am interrested in.
+
+- As a Coffee Shopper, I want to Easelly select the quantity of product, so that I buy the amount I want.
+
+- As a Coffee Shopper, I want to Know how the beans have been roasted, so that I can buy the roasted bean I like.
+
+- As a Coffee Shopper, I want to Know the strongness of the coffee, so that I can buy the strongness I want.
+
+- As a Coffee Shopper, I want to Know the specie of the coffee, so that I can buy my favourite specie.
+
+- As a Shopper, I want to easely view the detail of my bag, so that I am aware of the total price and products chosen.
+
+- As a Shopper, I want to view a list of products, so that I can select some to buy them.
+
+- As a Shopper, I want to view individual product details, so that I know the price, the details, the rating.
 
 # Features 
 
 ## Site-wide
 - Responsiveness
+
 The website is designed to be suitable for all devices. For example, the responsive navigation bar turns into a burger button for phone screens.
 
 - Navbar
+
 The navigation bar is consistent across all pages of the site and follows common practices that users have come to expect from navigation bars, e.g. a drop down menu for burgers appears on small devices, purchases are present with the price below.
 
 - Search bar
+
 The search bar finds cafes that contain the word the user is looking for, either in its name or in its description.
 
 - Toasts
+
 Toasts appear on all pages and provide the user with important information. These toasts also display the coffees that the user may have in their cart.
 
 
@@ -112,7 +142,7 @@ The footer contains information about the store, such as its phone number, addre
 The coffees on sale are displayed on the store page.
 Users can filter the coffees by species (Arabica, Robusta, mix of these 2 species), and by whole or ground beans in the COFFEE section of the navigation bar. 
 
-Users have the possibility to sort coffees by price, grade, category, country, robustness, roasting in "SORT BY" in the navigation bar.
+Users have the possibility to sort coffees by price, category, country, robustness, roasting in "SORT BY" in the navigation bar.
 
 <h3 align="center"><img src="static/images/readme/shop.png"></h3>
 
@@ -142,13 +172,21 @@ Payment is handled by Stripe.
 ### Registered users
 If the delivery details have been previously recorded, the form will be pre-filled with them.
 
-- ### Add edit delete
+- ### CRUD (Create, Read, Update, Delete)
+- Users can save in "My Profile" information and edit them.
+- Superusers can create new products (in "Add a product"), edit and delete products.
 
+## Access protection
 
+Routes are protected using Django's @login_required route decorators to ensure that non-super-users are not able to interfere with the database.
+
+## Redirecting pages
+Pages for 404 and 500 errors were created to inform the user when something goes wrong.
 
 ## Future
-- DEsign of the product packaging.
+- Design of the product packaging.
 - Blog about coffee
+- Review
 
 
 # SEO optimisation
@@ -234,6 +272,9 @@ Another strategy is to stimulate the curiosity of users by naming products after
 - [Inkscape](https://inkscape.org/) | used to create the favicon
 
 - [heroku]
+- [gmail]() used to send emails
+- [mailchimp]() used to subscribe to newsletters
+- [dbdiagram](dbdiagram.io) | used to make a ciagrame of the Database
 
 # Tests
 The details of testing can be found [here](TESTING.md).

@@ -6,6 +6,7 @@ from django.contrib import messages
 
 # Create your views here.
 
+
 def view_bag(request):
     """ A view that renders the bag contents page """
 
@@ -22,9 +23,9 @@ def add_to_bag(request, item_id):
 
     if item_id in list(bag.keys()):
         bag[item_id] += quantity
-        messages.success(request,
-                            (f'Updated {product.name} '
-                            f'quantity to {bag[item_id]}'))
+        messages.success(request, (
+                        f'Updated {product.name} '
+                        f'quantity to {bag[item_id]}'))
     else:
         bag[item_id] = quantity
         messages.success(request, f'Added {product.name} to your bag')
@@ -42,7 +43,9 @@ def adjust_bag(request, item_id):
 
     if quantity > 0:
         bag[item_id] = quantity
-        messages.success(request, f'Updated {product.name} quantity to {bag[item_id]}')
+        messages.success(
+            request,
+            f'Updated {product.name} quantity to {bag[item_id]}')
     else:
         bag.pop(item_id)
         messages.success(request, f'Removed {product.name} from your bag')

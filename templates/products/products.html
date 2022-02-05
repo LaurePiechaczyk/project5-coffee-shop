@@ -19,9 +19,7 @@
                 {% if current_specie == 'Arabica' %} Arabica {% endif %}
                 {% if current_specie == 'Robusta' %} Robusta {% endif %}
                 {% if current_specie == 'Blend' %} Blend coffee {% endif %}
-                
                 {% if current_sorting == 'price_asc' %} Sorted by ascending price {% endif %}
-                {% if current_sorting == 'rating_desc' %} Sorted by descending rating {% endif %}
                 {% if current_sorting == 'country_asc' %} Sorted by country {% endif %}
                 {% if current_sorting == 'strongness_asc' %} Sorted by ascending strongness {% endif %}
                 {% if current_sorting == 'roast_asc' %} Sorted by roasted {% endif %}
@@ -47,7 +45,7 @@
 
                                 {% else %}
                                 <a href="{% url 'product_detail' product.id %}">
-                                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                                    <img class="card-img-top img-fluid" src="https://res.cloudinary.com/dwccjr3n4/image/upload/v1643999538/media/noimage_een4vo.png" alt="{{ product.name }}">
                                 </a>
                                 {% endif %}
                                 <div class="card-body pb-0">
@@ -57,11 +55,6 @@
                                     <div class="row">
                                         <div class="col">
                                             <p class="lead mb-0 text-left font-weight-bold">€{{ product.price }} / kg</p>
-                                            {% if product.rating %}
-                                                <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
-                                            {% else %}
-                                                <small class="text-muted">No Rating</small>
-                                            {% endif %}
                                             {% if request.user.is_superuser %}
                                                 <small class="ml-3">
                                                     <a href="{% url 'edit_product' product.id %}">Edit</a> | 

@@ -45,7 +45,7 @@
                                 {% elif item.product.image %}
                                     <img class="w-100" src="{{ item.product.image.url }}" alt="{{ product.name }}">
                                 {% else %}
-                                    <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                                    <img class="w-100" src="https://res.cloudinary.com/dwccjr3n4/image/upload/v1643999538/media/noimage_een4vo.png" alt="{{ product.name }}">
                                 {% endif %}
                             </a>
                         </div>
@@ -106,7 +106,7 @@
 						</div>
                     </fieldset>
                     <fieldset class="px-3">
-                        <legend class="fieldset-label small text-black px-2 w-auto">Payment NOT YET AVAILABLE</legend>
+                        <legend class="fieldset-label small text-black px-2 w-auto">Payment</legend>
                         <!-- A Stripe card element will go here -->
                         <div class="mb-3" id="card-element"></div>
 
@@ -123,7 +123,7 @@
 							</span>
 							<span class="font-weight-bold">Adjust Bag</span>
 						</a>
-						<button id="submit-button" class="btn btn-black rounded-0">
+						<button id="submit-button" class="btn rounded-0">
 							<span class="font-weight-bold btn btn-green rounded-0">Complete Order</span>
 							<span class="icon">
 								<i class="fas fa-lock"></i>

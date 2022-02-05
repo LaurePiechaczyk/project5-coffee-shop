@@ -48,7 +48,7 @@ html {
 
 .btn-green {
     background: #65a575;
-    color: white;
+    color: white !important;
 }
 .btn-green:hover {
     background: #406f5c;
@@ -193,6 +193,13 @@ html {
     color: black;
 }
 
+
+/* ------------------------------- allauth forms */
+.allauth-form input{
+    border: 1px solid #53413e;
+    border-radius: 0px; 
+}
+
 /* ------------------------------- bootstrap toasts */
 .message-container {
     position: fixed;
@@ -309,8 +316,7 @@ html {
     }
 
     .part-intro {
-        height: calc(100vh - 110px);
-    
+        height: calc(100vh - 110px);  
 }
 }
 
