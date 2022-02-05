@@ -37,6 +37,25 @@ CVC: Any three digits
 [Acknowledgments](#acknowledgments)
 
 
+# About the project / e-commerce application
+### Type of e-commerce application
+This project is an e-commerce application for a small business that sells coffee. It is a B2C (Business to Customer) business and the consumer can order coffee online and pay for the order online.
+Because the e-commerce is B2C, the customer is likely to buy impulsively and make their own choice. 
+
+The e-commerce sells products (coffee). The products have a name, description, price, features and a stock keeping unit (SKU). Then the product has to be delivered to a postal address. All this information is stored in the database. 
+
+In order for the customer to find the products, product search and filtering has been implemented and order notifications are sent via email when the transaction is completed.
+The transaction is a single payment
+
+### Features to include
+- Easy payment gateway
+- Authentication system
+- search and filtering functionality
+- clear product description
+- product images
+- card and payment system
+
+
 # Target audience
 The target audience is those who want to buy quality coffee while being fair to the farmers and respecting nature.
 
@@ -210,6 +229,8 @@ https://www.xml-sitemaps.com/ To do the site-maps file
 robots.txt
 
 # Web Marketing
+
+
 facebook
 news letter registration
 
