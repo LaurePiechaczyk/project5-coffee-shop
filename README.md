@@ -237,18 +237,8 @@ An external link to a relevant website was added in order to improve the ranking
 Image description was also added to each image trying to describe the image well with relevant words used for SEO.
 
 
-### XSM sitemaps file
-list important page urls
-
-
-
-
-Links to information about responsible farmers was also added in order to offer the users valuable information as well as ranking higher in serches.  External link about Arabica and Robusta.
-
-
-https://www.xml-sitemaps.com/ To do the site-maps file 
-
-robots.txt
+### XML sitemaps file and Robot file
+Robots. txt and sitemap. xml have been added in order to help search engines better understand the website and index it correctly.
 
 # Web Marketing
 
@@ -320,6 +310,11 @@ Another strategy is to stimulate the curiosity of users by naming products after
 - [dbdiagram](dbdiagram.io) | used to make a ciagrame of the Database
 
 - [favicon-converter](https://favicon.io/favicon-converter/) | to generate the favicon from a picture in png format
+
+- https://www.xml-sitemaps.com/
+- aconverter
+- riot
+
  
 # Tests
 The details of testing can be found [here](TESTING.md).
