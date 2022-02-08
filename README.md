@@ -18,13 +18,17 @@ CVC: Any three digits
 
 # Table of content
 
-[About The Project](#about-the-project) 
+[About The Project / e-commerce application](#about-the-project-e-commerce-application) 
 
 [Target audience](#target-audience)  
 
-[User Experience](#user-experience)
+[User Story](#user-story)
 
 [Features](#features)  
+
+[SEO optimisation](#seo-optimisation)
+
+[Web Marketing](#web-marketing)
 
 [Technologies used](#technologies-used)
 
@@ -37,7 +41,7 @@ CVC: Any three digits
 [Acknowledgments](#acknowledgments)
 
 
-# About the project / e-commerce application
+# About the project e-commerce application
 ### Type of e-commerce application
 This project is an e-commerce application for a small business that sells coffee. It is a B2C (Business to Customer) business and the consumer can order coffee online and pay for the order online.
 Because the e-commerce is B2C, the customer is likely to buy impulsively and make their own choice. 
@@ -68,7 +72,7 @@ Custumer are also expected to be nature lovers and could be inspired by anything
 # User Experience and Organisation
 The details of the design, data organisation, wireframes can be found **[here](UX.md)**.
 
-## User Story
+# User Story
 
 The user stories for this project have been mapped in the github repository under the issues and are the following:
 
@@ -209,36 +213,33 @@ Pages for 404 and 500 errors were created to inform the user when something goes
 
 
 # SEO optimisation
-In order to rank higher in searches, optimation was performed.
+In order to obtain a better ranking in searches, an optimization has been done.
 ## Keywords
-In order to rank higher in the search engine, I reflected about keywords that could be looked by users.
-I came with a list that includes the following keywords:
-- buy quality coffee (because it is the target user of the ecommerce)
-- fresh coffee (I thought that fresh coffee is important for the quality of the coffee)
-- enjoy the moment (Coffee time at home or at work is a moment to enjoy the moment)
-- beans (the shop sells ground and beans but users might specifically look to buy beans to keep the freshness of the coffee)
-- responsible farmers (It is expected that the user is nature lover and want to be fair with nature)
-- roasted (There is a variety of roasted coffee in the shop and the user might look for some kind of roast)
-- Fair trade (It is expected that the user is sensible to the condition the farmer work)
-- Organic ((It is expected that the user is carefull of what chemical have been used and want to be clean with the nature as well as having a healthier beverage))
+In order to get a better ranking in the search engine, I thought about the keywords that could be searched by users.
+I came up with a list that includes the following keywords:
+- buy quality coffee (because it is the target user of e-commerce)
+- fresh coffee (I thought fresh coffee is important for the quality of the coffee)
+- enjoy the moment (Coffee time, at home or at work, is a time to enjoy)
+- beans (The store sells ground coffee and beans, but users can look to purchase beans to preserve the freshness of the coffee)
+- responsible farmers (The user is supposed to be a nature lover and want to be in tune with nature)
+- roasted (There is a variety of roasted coffee in the store and the user can look for a certain type of roast)
+- Fair trade (The user is expected to be sensitive to the working conditions of the farmer)
+- Organic (The user is expected to be mindful of the chemicals used and wants to be clean with nature while having a healthier drink)
 
 The keywords where then used in the content of the website in h tags, strong tags and in the metadescription.
 
-
 ### meta description and site title
-In order to rank higher in the search, meta description, keywords and title was added in the head of the HTML file.
-
+The keywords were then used in the website content in the h tags, strong tags and in the meta description.
 
 ### links
-rel="noopener" to facebook link was added because it does not give information about what the website is about.
-An external link to a relevant website was added in order to improve the ranking of the ecommerce website. The link to fair trade is relevant because the ecommerce targets people wanted who care about nature.
+The rel="noopener" link to facebook has been added as it does not give information about the content of the site.
+An external link to a relevant website was added to improve the ranking of the e-commerce site. The link to fair trade is relevant because the e-commerce site targets people who care about nature.
 
 ### Image description
-Image description was also added to each image trying to describe the image well with relevant words used for SEO.
-
+The image description has also been added to each image trying to describe the image well with relevant words used for SEO.
 
 ### XML sitemaps file and Robot file
-Robots. txt and sitemap. xml have been added in order to help search engines better understand the website and index it correctly.
+Robots.txt and sitemap.xml have been added to help search engines to better understand the website and to index it correctly.
 
 # Web Marketing
 ### Organic Social Marketing
@@ -253,11 +254,9 @@ A newsletter has been set up with [mailchimp] (https://mailchimp.com/). When the
 ### Triggering curiosity
 Another strategy is to stimulate the curiosity of users by naming products after nature. Similarly, on the homepage, random products are displayed to draw the user's attention to new products.
 
-
-# GDPR 
+### GDPR 
 Because the website collects information about users, the General Data Protection Regulation (GDPR) is important and must be taken into account.
 The website has a privacy policy that was generated by [privacypolicygenerator] (https://www.privacypolicygenerator.info/).
-
     
 # Technologies used
 ## Languages used
@@ -265,7 +264,6 @@ The website has a privacy policy that was generated by [privacypolicygenerator] 
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)  
 - [js](https://en.wikipedia.org/wiki/JavaScript)  
 - [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
-
 
 ## Frameworks
 - [Bootstrap](https://getbootstrap.com/)
@@ -312,17 +310,23 @@ The website has a privacy policy that was generated by [privacypolicygenerator] 
 
 - [Inkscape](https://inkscape.org/) | used to create the favicon
 
-- [heroku]
-- [gmail]() used to send emails
-- [mailchimp]() used to subscribe to newsletters
+- [heroku](https://www.heroku.com/) | used to deploy and host the project
+
+- [gmail](https://gmail.com/) | used to send emails
+
+- [mailchimp](https://mailchimp.com/) | used to subscribe to newsletters
+
 - [dbdiagram](dbdiagram.io) | used to make a ciagrame of the Database
 
-- [favicon-converter](https://favicon.io/favicon-converter/) | to generate the favicon from a picture in png format
+- [favicon-converter](https://favicon.io/favicon-converter/) | used to generate the favicon from a picture in png format
 
-- https://www.xml-sitemaps.com/
-- aconverter
-- riot
-[privacypolicygenerator](https://www.privacypolicygenerator.info/)
+- [xml-sitemaps](https://www.xml-sitemaps.com/) | used to generate the sitemap file
+
+- [aconvert](https://www.aconvert.com/document/xls-to-json/) | used to convert excel file into json format
+
+- [riot](https://riot-optimizer.com/) | used to resize images
+
+- [privacypolicygenerator](https://www.privacypolicygenerator.info/) | used to create the privacy policy
 
  
 # Tests
@@ -425,16 +429,29 @@ A lot of the code for this site was taken and adapted from the Boutique Ado walk
 
 [mdbootstrap](https://mdbootstrap.com/docs/standard/navigation/footer/) - The code of the footer was adapted from these examples.
 
+[very Academy](https://www.youtube.com/watch?v=eC95DrKMEo8) Trick to Create Django Fixtures from Excel/CSV File.
+
 
 ## Read me file credits
 Some parts of the readme file from [farrelleoin93](https://github.com/farrelleoin93/12-acres-beer) have been adapted to write this readme file.
 
 ## Pictures credits
-https://www.countryflags.com/ethiopia-flag-image/
+### Flags
+Pictures for the flags come from [countryflags](https://www.countryflags.com/)
+### Pixabay:
+- coffee animation and favicon from [Myriams-Fotos](https://pixabay.com/de/photos/stillleben-kaffeebohnen-kaffeepulver-2366084/)
+### Pexels
+- Picture Hero [Toni Cuenca](https://www.pexels.com/photo/brown-coffee-beans-585750/)
+### Unsplash
+- Coffee bag from Tina Guina. Ref: tina-guina-obV_LM0KjxY-unsplash_R.jpg
+- Coffee tree from [Rodrigo Flores](https://unsplash.com/photos/sn87TQ_o7zs)
+- Farmer hands from [Rodrigo Flores](https://unsplash.com/photos/T5qjs-63kqQ)
+
+
 
 ## Inspiration website / content home page
-https://beans.at/en/kaffeewissen/kaffeesorten-arabica-robusta/arabica
-https://www.thekitchn.com/coffee-basics-the-difference-b-41949
+[Beans](https://beans.at/en/kaffeewissen/kaffeesorten-arabica-robusta/arabica)
+[kitchn](https://www.thekitchn.com/coffee-basics-the-difference-b-41949)
 
 
 # Acknowledgments
