@@ -210,16 +210,38 @@ Pages for 404 and 500 errors were created to inform the user when something goes
 
 # SEO optimisation
 In order to rank higher in searches, optimation was performed.
-meta description and Key words were added. The chosen key words were:
-fresh coffee
-beans
-responsible farmers
-buy quality coffee
-Taste
-enjoy the moment
-roasted
-Fair trade
-organic
+## Keywords
+In order to rank higher in the search engine, I reflected about keywords that could be looked by users.
+I came with a list that includes the following keywords:
+- buy quality coffee (because it is the target user of the ecommerce)
+- fresh coffee (I thought that fresh coffee is important for the quality of the coffee)
+- enjoy the moment (Coffee time at home or at work is a moment to enjoy the moment)
+- beans (the shop sells ground and beans but users might specifically look to buy beans to keep the freshness of the coffee)
+- responsible farmers (It is expected that the user is nature lover and want to be fair with nature)
+- roasted (There is a variety of roasted coffee in the shop and the user might look for some kind of roast)
+- Fair trade (It is expected that the user is sensible to the condition the farmer work)
+- Organic ((It is expected that the user is carefull of what chemical have been used and want to be clean with the nature as well as having a healthier beverage))
+
+The keywords where then used in the content of the website in h tags, strong tags and in the metadescription.
+
+
+### meta description and site title
+In order to rank higher in the search, meta description, keywords and title was added in the head of the HTML file.
+
+
+### links
+rel="noopener" to facebook link was added because it does not give information about what the website is about.
+An external link to a relevant website was added in order to improve the ranking of the ecommerce website. The link to fair trade is relevant because the ecommerce targets people wanted who care about nature.
+
+### Image description
+Image description was also added to each image trying to describe the image well with relevant words used for SEO.
+
+
+### XSM sitemaps file
+list important page urls
+
+
+
 
 Links to information about responsible farmers was also added in order to offer the users valuable information as well as ranking higher in serches.  External link about Arabica and Robusta.
 
