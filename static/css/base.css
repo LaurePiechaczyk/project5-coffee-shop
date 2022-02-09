@@ -105,7 +105,7 @@ html {
 .part-intro {
         background: url('https://res.cloudinary.com/dwccjr3n4/image/upload/v1644232643/static/images/main-background_hj305u.jpg') no-repeat center center fixed;
         background-size: cover;
-        height: calc(100vh - 164px);
+        height: calc(100vh - 150px);
     
 }
 
@@ -316,7 +316,7 @@ html {
     }
 
     .part-intro {
-        height: calc(100vh - 110px);  
+        height: calc(100vh - 100px);  
 }
 }
 
@@ -329,7 +329,7 @@ html {
     }
 
     .part-intro {
-        height: calc(100vh - 146px);  
+        height: calc(100vh - 130px);  
 }
 }
 
@@ -345,7 +345,7 @@ html {
     }
 
     .part-intro {
-        height: calc(100vh - 180px);  
+        height: calc(100vh - 165px);  
 }
 
     .shop-now-button {
