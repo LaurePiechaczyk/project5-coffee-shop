@@ -93,6 +93,7 @@ html {
 
 .bg-dark-brown {
     background: #53413e !important;
+    border: 1px solid #53413e !important;
 }
 
 .btt-link,
@@ -302,7 +303,7 @@ html {
 
 @media (min-width: 992px) {
     .header-container {
-        padding-top: 164px;
+        padding-top: 150px;
     }
 }
 
@@ -310,7 +311,6 @@ html {
     .header-container {
         padding-top: 116px;
     }
-
     body {
         height: calc(100vh - 116px);
     }
@@ -320,8 +320,35 @@ html {
 }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 391px) {
     .header-container {
-        padding-top: 190px;
+        padding-top: 146px;
+    }
+    body {
+        height: calc(100vh - 146px);
+    }
+
+    .part-intro {
+        height: calc(100vh - 146px);  
+}
+}
+
+
+
+@media (max-width: 290px) {
+    .header-container {
+        padding-top: 180px;
+    }
+
+    body {
+        height: calc(100vh - 180px);
+    }
+
+    .part-intro {
+        height: calc(100vh - 180px);  
+}
+
+    .shop-now-button {
+        width: 200px;
     }
 }

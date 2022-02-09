@@ -102,7 +102,6 @@ The website was tested on computers using the browsers:
 - Super user is loged in:  dropdown menu brings the user to the "Add a Product", "My Profile" and "logout" pages.
   - CHECK
 
-
 #### Bottom navbar
 - Confirm that all the navigation links bring the user to the relevant pages with the relevant products displayed in products.
   - CHECK
@@ -197,8 +196,10 @@ The website was tested on computers using the browsers:
   - CHECK
 
 #### Responsivness
-- Confirm the ecommerce works on all devices
+- Confirm the ecommerce works on all devices with [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+  - CHECK
 
+- Confirm the ecommerce works on all devices with [am I responsive?](http://ami.responsivedesign.is/)
 
 #### Registration
 - Confirm email is received for registration.
