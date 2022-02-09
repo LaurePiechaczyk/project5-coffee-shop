@@ -239,7 +239,12 @@ The website was tested on computers using the browsers:
   - CHECK
 
 #### Account pages
-Check that the layout matches the rest of the website.
+- Check that the layout matches the rest of the website.
+  - CHECK
+
+- Register - login - log out - reset password by clicking Forgot Password
+  - CHECK
+
 
 
 ## Automated testing
