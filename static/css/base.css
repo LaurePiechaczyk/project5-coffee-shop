@@ -330,10 +330,14 @@ html {
 
     .part-intro {
         height: calc(100vh - 130px);  
-}
+    }
 }
 
-
+@media (max-width: 320px) {
+    .arrow-container{
+        display: none;
+    }
+}
 
 @media (max-width: 290px) {
     .header-container {
@@ -347,11 +351,7 @@ html {
     .part-intro {
         height: calc(100vh - 165px);  
 }
-
     .shop-now-button {
         width: 200px;
-    }
-    .arrow-container{
-        display: none;
     }
 }
