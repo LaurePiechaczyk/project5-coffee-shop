@@ -12,7 +12,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - [W3C Markup Validation Register | Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fproject5-coffee-and-nature.herokuapp.com%2Faccounts%2Fsignup%2F)
 - [W3C Markup Validation Logout | Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fproject5-coffee-and-nature.herokuapp.com%2Faccounts%2Flogout%2F)
 
-
 - [W3C CSS Validator | Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fproject5-coffee-and-nature.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=fr)
 
 
@@ -21,7 +20,6 @@ Javascipt code was tested using [jshint](https://jshint.com/) and no error was f
 Python the code was passed in [PEP8 online checker](http://pep8online.com) 
 
 ## Testing User Stories
-
 - As a Site admin/superuser, I want to delete existing coffees, so that I can be up to date with the available products.
 
 - As a Site admin/superuser, I want to edit existing coffees, so that I can update the website.
@@ -87,29 +85,43 @@ The website was tested on computers using the browsers:
 ### Testing the website manually
 #### Top navbar
 - Clicking COFFEE & NATURE in the top navbar directs the user to the home page.
+  - CHECK
 
 - Entering a word into the search box brings the user to the shop page with relevant products deiplayed.
+  - CHECK
 
 - Clicking the bag icon brings to the shopping bag page.
+  - CHECK
 
 - User not loged in "Account" is displayed and user logged in "My account" is displayed.
+  - CHECK
 
 - User not loged in: dropdown menu brings the user to the "Register" and "login" pages.  User logged in: dropdown menu brings the user to the "My Profile" and "logout" pages.
+  - CHECK
 
 - Super user is loged in:  dropdown menu brings the user to the "Add a Product", "My Profile" and "logout" pages.
+  - CHECK
+
 
 #### Bottom navbar
 - Confirm that all the navigation links bring the user to the relevant pages with the relevant products displayed in products.
+  - CHECK
 
 - Reducing the screen size to mobile and tablet screen sizes to have Burger icon appearing.
+  - CHECK
 
 #### Home page
-
 - Confirm that the "SHOP NOW" button brings the user to the product page.
+  - CHECK
 
 - Confirm that 4 random products are displayed and when clicked link to the detail page of the product.
+  - CHECK
 
 - Confirm that clicking on the countries flag, it redirects to the product page with the relevant products displayed.
+  - CHECK
+
+- Confirm that clicking the link to the Fairtrade international link open the correct page in a new window (in various screen size).
+
 
 #### Product page
 - Confirm that all products are displayed
