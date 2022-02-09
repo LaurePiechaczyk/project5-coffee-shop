@@ -30,46 +30,67 @@ Python the code was passed in [PEP8 online checker](http://pep8online.com)
   - A super user logged in can add product by clicking "Add a Product in the dropdown "My Account"
 
 - As a Registered user, I want to Easily recover my password in case I forget it, so that Recover access to my account.
+  - New password can be reset by clicking Forgot Password in login page.
 
 - As a Coffee Shopper, I want to Receive email confirmation of my order, so that confirm that my order was successful.
+  - email with the order summary is sent after the order is completed.
 
 - As a Registered user, I want to Make secure payments, so that ensure that my payments are securely handled.
+  - Stipe is used to handle secure payment. 
 
 - As a Registered user, I want to review my purchase at the checkout, so that decide whether to add or edit the order before confirming.
+  - In the checkout page, the order summary is displayed.
 
 - As a Registered user, I want to leave a review, so that inform future users about the coffee.
+  - App to be added in futur development.
 
 - As a Registered user, I want to store my order history, so that access my previous orders.
+  - Order history can be found in my profile page.
 
 - As a Registered user, I want to update my details, so that I can update my address and other details in case they change.
+  - In my Profile, details can be updated.
 
 - As a Registered user, I want to store my details for later use, so that I avoid having to fill in my details each time.
+  - In my Profile, details are stored.
 
 - As a Registered user, I want to log in and log out of my profile account, so that so that my personal information will be safe.
+   - In the nav bar, user can login and out easelly.
 
 - As a Unregistered user, I want to easily register an account, so that use the site easier in the future.
+   - In the nav bar, user can register easelly.
 
 - As a Unregistered user, I want to Access contact details, so that get in touch with the coffee shop.
+   - Information of the store are in the footer in the Home page. In order that user access it easelly from any page, a link has been added in the navbar.
 
 - As a Unregistered user, I want to filter coffee types, so that find specific types of coffees.
+  - filters have been added.
 
 - As a Unregistered user, I want to easily navigate the site, so that I can find what I am looking for quickly.
+  - Links have been added at strategic locations so that the user can navigate the site instinctively.
 
 - As a Shopper, I want to Search for a product by name or description, so that I find the products I am interrested in.
+  - a search section is present in the top of the website.
 
 - As a Coffee Shopper, I want to Easelly select the quantity of product, so that I buy the amount I want.
+  - User can select how many kg of a coffee they want to order.
 
 - As a Coffee Shopper, I want to Know how the beans have been roasted, so that I can buy the roasted bean I like.
+  - Roasted information is present both in the packaging and in the product details page.
 
 - As a Coffee Shopper, I want to Know the strongness of the coffee, so that I can buy the strongness I want.
+  - Strongness information is present in the product details page.
 
 - As a Coffee Shopper, I want to Know the specie of the coffee, so that I can buy my favourite specie.
+  - The coffee variety is shown both in the packaging and varieties can be filtered.
 
 - As a Shopper, I want to easely view the detail of my bag, so that I am aware of the total price and products chosen.
+  - The bag page shows the content of the bag
 
 - As a Shopper, I want to view a list of products, so that I can select some to buy them.
+  - In the product page, the products are displayed.
 
 - As a Shopper, I want to view individual product details, so that I know the price, the details, the rating.
+   - The detail page contains the details of the product.
 
 ## Manual testing
 
