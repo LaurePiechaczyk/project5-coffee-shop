@@ -200,6 +200,7 @@ The website was tested on computers using the browsers:
   - CHECK
 
 - Confirm the ecommerce works on all devices with [am I responsive?](http://ami.responsivedesign.is/)
+  - CHECK
 
 #### Registration
 - Confirm email is received for registration.

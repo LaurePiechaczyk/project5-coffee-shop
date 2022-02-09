@@ -351,4 +351,7 @@ html {
     .shop-now-button {
         width: 200px;
     }
+    .arrow-container{
+        display: none;
+    }
 }
