@@ -57,13 +57,13 @@ html {
 
 .btn-outline-dark-brown {
     background: white;
-    color: #53413e !important; /* use important to override link colors for <a> elements */
+    color: #53413e !important;
     border: 1px solid #53413e;
 }
 
 .btn-outline-dark-beige {
     background: white;
-    color: #c68d76 !important; /* use important to override link colors for <a> elements */
+    color: #c68d76 !important;
     border: 1px solid #c68d76;
 }
 
@@ -217,7 +217,6 @@ html {
     height: 2px;
 }
 
-/* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
     width: 0; 
     height: 0; 
@@ -229,7 +228,6 @@ html {
     right: 36px;
 }
 
-/* Convenience classes - colors copied from Bootstrap */
 .arrow-primary {
     border-bottom-color: #007bff !important;
 }

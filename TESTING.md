@@ -102,6 +102,9 @@ The website was tested on computers using the browsers:
 - Super user is loged in:  dropdown menu brings the user to the "Add a Product", "My Profile" and "logout" pages.
   - CHECK
 
+- Confirm that the bag icon in the navbar updates its price when a product is added to the bag.
+  - CHECK
+
 #### Bottom navbar
 - Confirm that all the navigation links bring the user to the relevant pages with the relevant products displayed in products.
   - CHECK
@@ -179,6 +182,12 @@ The website was tested on computers using the browsers:
   - CHECK
 
 - Close the webpage in the middle of the payment and confirm that the order is complete, email with order received and order found in the Order History
+  - CHECK
+
+#### Checkout success page
+- Confirm that the order is are correct.
+  - CHECK
+- Confirm the link button brings to the relevant page.
   - CHECK
 
 #### Profile page
