@@ -121,50 +121,80 @@ The website was tested on computers using the browsers:
   - CHECK
 
 - Confirm that clicking the link to the Fairtrade international link open the correct page in a new window (in various screen size).
+  - CHECK
 
+#### Footer
+- Confirm that clicking the link to the Privacy Policy link open the correct page in a new window.
+  - CHECK
+
+- Confirm that clicking the link to the Facebook page link open the correct page in a new window.
+  - CHECK
 
 #### Product page
-- Confirm that all products are displayed
+- Confirm that all products are displayed.
+  - CHECK
 
 - Confirm that clicking on a product brings to the product details page for the product.
+  - CHECK
 
 #### Product details page
 - Confirm the Name, Characteristics are the good one.
+  - CHECK
  
 - Confirm the Quantity can be changed.
+  - CHECK
 
 - Confirm the superuser have links to edit and delete the product
+  - CHECK
 
 - Confirm the correct page redirection when "KEEP SHOPPING" and "ADD TO BAG" are clicked
+  - CHECK
 
 #### Bag
 - Confirm all products are in the bag.
+  - CHECK
 
 - Confirm the quantity can be adjusted.
+  - CHECK
 
 - Confirm the amount is correct
+  - CHECK
 
 - Confirm the delivery cost is correct with orders under and over 50 euros
+  - CHECK
 
 - Confirm the correct page redirection when "KEEP SHOPPING" and "SECURE CHECKOUT" are clicked
-
+  - CHECK
 
 #### Checkout page
 - Confirm the order detail is correct
+  - CHECK
+
+- Confirm the payment is working using the Card Number: 4242 4242 4242 4242
+  - CHECK
 
 - confirm the user received and confirmation email
+  - CHECK
 
 - Confirm register user can save delivery information in the profile
+  - CHECK
 
-- Confirm test payment can be done with the test card number
+- Close the webpage in the middle of the payment and confirm that the order is complete, email with order received and order found in the Order History
+  - CHECK
 
 #### Profile page
 - Confirm the user can save information
+  - CHECK
+
 - Confirm user can update information
+  - CHECK
+
 - Confirm previous orders can be seen
+  - CHECK
 
 #### Toasts
 - Confirm that user receives relevant feedback
+  - CHECK
 
 #### Responsivness
 - Confirm the ecommerce works on all devices
@@ -172,12 +202,20 @@ The website was tested on computers using the browsers:
 
 #### Registration
 - Confirm email is received for registration.
+  - CHECK
+
 - Confirm link to register from the email.
+  - CHECK
 
 #### ADD / DELETE/ EDIT Products
-- Confirm than only super user can add, edit delete products
-    - Entering the url when normal user or no user login
-- Confirm than if no picture is loaded, the default picture will show off.
+- Confirm than only super user can add, edit delete products. Entering the url https://project5-coffee-and-nature.herokuapp.com/products/add/ and https://project5-coffee-and-nature.herokuapp.com/products/edit/2/ when user and super user is logged in or no logged in.
+    - CHECK  
+
+- Confirm than if no picture is loaded when a product is created, the default picture will show off.
+    - CHECK  
+
+- Confirm deleting product
+    - CHECK 
 
 
 ## Automated testing
