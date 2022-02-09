@@ -1,5 +1,4 @@
 # Testing
-
 ## Code validation
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 - [W3C Markup Validation Homepage | Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fproject5-coffee-and-nature.herokuapp.com%2F)
@@ -88,73 +87,55 @@ The website was tested on computers using the browsers:
 ### Testing the website manually
 #### Top navbar
 - Clicking COFFEE & NATURE in the top navbar directs the user to the home page.
-    - CHECK
 
 - Entering a word into the search box brings the user to the shop page with relevant products deiplayed.
-    - CHECK
 
 - Clicking the bag icon brings to the shopping bag page.
-    - CHECK
 
 - User not loged in "Account" is displayed and user logged in "My account" is displayed.
-    - CHECK
 
 - User not loged in: dropdown menu brings the user to the "Register" and "login" pages.  User logged in: dropdown menu brings the user to the "My Profile" and "logout" pages.
-    - CHECK
 
 - Super user is loged in:  dropdown menu brings the user to the "Add a Product", "My Profile" and "logout" pages.
-    - CHECK
 
 #### Bottom navbar
 - Confirm that all the navigation links bring the user to the relevant pages with the relevant products displayed in products.
-    - CHECK
 
 - Reducing the screen size to mobile and tablet screen sizes to have Burger icon appearing.
-    - CHECK
 
 #### Home page
 
 - Confirm that the "SHOP NOW" button brings the user to the product page.
-    - CHECK
 
 - Confirm that 4 random products are displayed and when clicked link to the detail page of the product.
-    - CHECK
 
 - Confirm that clicking on the countries flag, it redirects to the product page with the relevant products displayed.
-    - CHECK
 
 #### Product page
 - Confirm that all products are displayed
-   - CHECK
+
 - Confirm that clicking on a product brings to the product details page for the product.
-   - CHECK
 
 #### Product details page
-
 - Confirm the Name, Characteristics are the good one.
-   - CHECK
  
 - Confirm the Quantity can be changed.
-   - CHECK
 
 - Confirm the superuser have links to edit and delete the product
-   - CHECK
 
 - Confirm the correct page redirection when "KEEP SHOPPING" and "ADD TO BAG" are clicked
-   - CHECK
-
 
 #### Bag
 - Confirm all products are in the bag.
-    - CHECK
+
 - Confirm the quantity can be adjusted.
-   - CHECK
+
 - Confirm the amount is correct
-   - CHECK
+
 - Confirm the delivery cost is correct with orders under and over 50 euros
-   - CHECK
+
 - Confirm the correct page redirection when "KEEP SHOPPING" and "SECURE CHECKOUT" are clicked
-   - CHECK
+
 
 #### Checkout page
 - Confirm the order detail is correct
@@ -185,7 +166,6 @@ The website was tested on computers using the browsers:
 - Confirm than only super user can add, edit delete products
     - Entering the url when normal user or no user login
 - Confirm than if no picture is loaded, the default picture will show off.
-
 
 
 ## Automated testing
