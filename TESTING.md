@@ -21,10 +21,13 @@ Python the code was passed in [PEP8 online checker](http://pep8online.com)
 
 ## Testing User Stories
 - As a Site admin/superuser, I want to delete existing coffees, so that I can be up to date with the available products.
+  - A super user logged in can delete product in the product page and in the product detail page
 
 - As a Site admin/superuser, I want to edit existing coffees, so that I can update the website.
+  - A super user logged in can edit product in the product page and in the product detail page
 
 - As a Site admin/superuser, I want to add new products to the website, so that continuously make new coffees available.
+  - A super user logged in can add product by clicking "Add a Product in the dropdown "My Account"
 
 - As a Registered user, I want to Easily recover my password in case I forget it, so that Recover access to my account.
 
@@ -227,6 +230,16 @@ The website was tested on computers using the browsers:
 
 - Confirm deleting product
     - CHECK 
+
+#### 404 page and debug is False
+- Confirm that the link https://project5-coffee-and-nature.herokuapp.com/uuu brings to the 404 page
+    - CHECK 
+
+- Confirm the link button brings to the relevant page.
+  - CHECK
+
+#### Account pages
+Check that the layout matches the rest of the website.
 
 
 ## Automated testing
