@@ -98,13 +98,12 @@ Python the code was passed in [PEP8 online checker](http://pep8online.com)
 The website was tested on computers using the browsers:
 - [Google Chrome](https://en.wikipedia.org/wiki/Google_Chrome)
 - [Firefox](https://en.wikipedia.org/wiki/Firefox) 
-- [internet explorer](https://en.wikipedia.org/wiki/Internet_Explorer)
 - [Microsoft edge](https://en.wikipedia.org/wiki/Microsoft_Edge)
 - [Safary](https://en.wikipedia.org/wiki/Safari_(software))
 
 ### Test on devices
-[Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to see how the site looks like on various phones and tablets. Additionally, after deployment the website was tested on various phones including iphones and Samsung phones.
-
+[Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to see how the site looks like on various phones and tablets.
+[mozilla DevTools](https://developer.mozilla.org/en-US/docs/Tools) was used to see how the site looks like on various phones and tablets.
 
 ### Testing the website manually
 #### Top navbar

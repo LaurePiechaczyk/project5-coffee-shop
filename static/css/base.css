@@ -318,7 +318,7 @@ html {
 }
 }
 
-@media (max-width: 391px) {
+@media (max-width: 379px) {
     .header-container {
         padding-top: 146px;
     }
