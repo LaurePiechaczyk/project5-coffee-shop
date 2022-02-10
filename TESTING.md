@@ -266,6 +266,10 @@ The website was tested on computers using the browsers:
 - Register - login - log out - reset password by clicking Forgot Password
   - CHECK
 
-
-
-## Automated testing
+## Testing on real devices
+- Galaxy A8
+  - CHECK
+- Samsung A21
+  - CHECK
+- iPhone X 
+  - To be solve: picture size
