@@ -111,10 +111,8 @@ html {
 }
 
 .part-intro {
-        background: url('https://res.cloudinary.com/dwccjr3n4/image/upload/v1644583077/Coffee-home/mainbackground_woii73.jpg') no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+        background: url('https://res.cloudinary.com/dwccjr3n4/image/upload/v1644583077/Coffee-home/mainbackground_woii73.jpg') no-repeat fixed;
+        background-position: center center;
         background-size: cover;    
         height: calc(100vh - 150px);   
 }
