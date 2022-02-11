@@ -115,7 +115,7 @@ The website was tested on computers using the browsers:
 - Clicking COFFEE & NATURE in the top navbar directs the user to the home page.
   - CHECK
 
-- Entering a word into the search box brings the user to the shop page with relevant products deiplayed.
+- Entering a word into the search box brings the user to the shop page with relevant products displayed.
   - CHECK
 
 - Clicking the bag icon brings to the shopping bag page.

@@ -206,6 +206,10 @@ html {
     color: black;
 }
 
+.qty_input{
+    min-width: 28px !important;
+}
+
 
 /* ------------------------------- allauth forms */
 .allauth-form input{
