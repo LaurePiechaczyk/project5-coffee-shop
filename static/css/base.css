@@ -113,7 +113,7 @@ html {
 .part-intro {
         background: url('https://res.cloudinary.com/dwccjr3n4/image/upload/v1644583077/Coffee-home/mainbackground_woii73.jpg') no-repeat fixed;
         background-position: center center;
-        background-size: cover;    
+        background-size: 100%;   
         height: calc(100vh - 150px);   
 }
 
