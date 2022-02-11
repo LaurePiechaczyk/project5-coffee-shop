@@ -97,13 +97,18 @@ Python the code was passed in [PEP8 online checker](http://pep8online.com)
 ### Test on browsers
 The website was tested on computers using the browsers:
 - [Google Chrome](https://en.wikipedia.org/wiki/Google_Chrome)
+  - CHECK
 - [Firefox](https://en.wikipedia.org/wiki/Firefox) 
+  - CHECK
 - [Microsoft edge](https://en.wikipedia.org/wiki/Microsoft_Edge)
+  - CHECK
 - [Safary](https://en.wikipedia.org/wiki/Safari_(software))
 
 ### Test on devices
 [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to see how the site looks like on various phones and tablets.
+  - CHECK
 [mozilla DevTools](https://developer.mozilla.org/en-US/docs/Tools) was used to see how the site looks like on various phones and tablets.
+  - CHECK
 
 ### Testing the website manually
 #### Top navbar
@@ -270,5 +275,10 @@ The website was tested on computers using the browsers:
   - CHECK
 - Samsung A21
   - CHECK
-- iPhone X 
-  - To be solve: picture size
+- iPhone X & iPad
+  - CHECK - Note / bug: 
+
+  The images on the homepage have in the css file "background-attachment: fixed;".
+
+  However, it seems that iOS does not support "background-attachment: fixed;" well and the images did not display well in iphones and ipads. Therefore, "background-attachment: scroll;" was used for iOS devices.
+
