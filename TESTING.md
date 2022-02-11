@@ -107,8 +107,13 @@ The website was tested on computers using the browsers:
 ### Test on devices
 [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to see how the site looks like on various phones and tablets.
   - CHECK
+  
 [mozilla DevTools](https://developer.mozilla.org/en-US/docs/Tools) was used to see how the site looks like on various phones and tablets.
   - CHECK
+
+ - Note / Bug:
+
+Regarding the display for a device with a width of 390px (iPhone12 pro), the firefox and Chrome devtools showed a different layout. The layout was done using Chrome devtool but it would be important to test the site on a real iPhone12 pro. The issue found is a small design issue in the login and exit page where the title is partially hidden. This does not affect the functionality of the website but the user experience.
 
 ### Testing the website manually
 #### Top navbar
