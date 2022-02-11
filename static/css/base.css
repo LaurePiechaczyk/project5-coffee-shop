@@ -380,13 +380,13 @@ html {
     .mobile-index
     { 
         background-attachment: scroll;
-        background-size: 100%;    
+        background-size: cover;    
 
     }
     .mobile-index-about
     { 
         background-attachment: scroll;
-        background-size: 100%;
+        background-size: cover; 
 
     }
 }
