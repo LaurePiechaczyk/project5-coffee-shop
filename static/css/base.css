@@ -15,14 +15,14 @@ html {
 /* from Bulma */
 .icon {
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     height: 1.5rem;
     width: 1.5rem;
 }
@@ -114,7 +114,7 @@ html {
         background: url('https://res.cloudinary.com/dwccjr3n4/image/upload/v1644583077/Coffee-home/mainbackground_woii73.jpg') no-repeat;
         background-position: center center;
         background-size: cover;    
-        background-attachment: scroll !important;
+        background-attachment: fixed;
         height: calc(100vh - 150px);   
 }
 
@@ -190,8 +190,10 @@ html {
 }
 
 .part-about-our-coffee {
-    background: url('https://res.cloudinary.com/dwccjr3n4/image/upload/v1644583077/Coffee-home/mainbackground_woii73.jpg') no-repeat center center fixed;
-    background-size: cover; 
+    background: url('https://res.cloudinary.com/dwccjr3n4/image/upload/v1644583077/Coffee-home/mainbackground_woii73.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;    
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -278,14 +280,18 @@ html {
 
 /* -----------------------------Index mobile version */
 .mobile-index {
-    background: url('https://res.cloudinary.com/dwccjr3n4/image/upload/v1644583077/Coffee-home/mainbackground_woii73.jpg') no-repeat center center fixed;
-    background-size: cover;
+    background: url('https://res.cloudinary.com/dwccjr3n4/image/upload/v1644583077/Coffee-home/mainbackground_woii73.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;    
+    background-attachment: fixed;
     height: 100%;
 }
 
 .mobile-index-about {
-    background: url('https://res.cloudinary.com/dwccjr3n4/image/upload/v1644583077/Coffee-home/mainbackground_woii73.jpg') no-repeat center center fixed;
-    background-size: cover;
+    background: url('https://res.cloudinary.com/dwccjr3n4/image/upload/v1644583077/Coffee-home/mainbackground_woii73.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;    
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -361,5 +367,14 @@ html {
 }
     .shop-now-button {
         width: 200px;
+    }
+}
+
+@supports (-webkit-touch-callout: none) {
+    /* CSS specific to iOS devices */ 
+
+    .part-intro { 
+        background-attachment: scroll;
+
     }
 }
