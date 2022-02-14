@@ -21,7 +21,7 @@ The characteristics of the products were written in an excel file where I tried 
 From the excel file with the characteristics, I started to design the models for the products and later on made json file with the information to load the data (to be found in "products --> fixtures")
 
 ## Database model
-A relational database was used for this project. The database can be seen in the diagram below:
+A relational database was used for this project. The database can be seen in the diagram below (made with [dbdiagram.io](https://dbdiagram.io/)):
 <h3 align="center"><img src="static/images/readme/database.png"></h3>
 
 ## Project 5 planification and evolution
