@@ -14,8 +14,14 @@ html {
 
 /* from Bulma */
 .icon {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     height: 1.5rem;
     width: 1.5rem;
@@ -26,6 +32,8 @@ html {
 }
 
 .main-logo-link {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
 }
 
@@ -57,13 +65,13 @@ html {
 
 .btn-outline-dark-brown {
     background: white;
-    color: #53413e !important; /* use important to override link colors for <a> elements */
+    color: #53413e !important;
     border: 1px solid #53413e;
 }
 
 .btn-outline-dark-beige {
     background: white;
-    color: #c68d76 !important; /* use important to override link colors for <a> elements */
+    color: #c68d76 !important;
     border: 1px solid #c68d76;
 }
 
@@ -93,6 +101,7 @@ html {
 
 .bg-dark-brown {
     background: #53413e !important;
+    border: 1px solid #53413e !important;
 }
 
 .btt-link,
@@ -102,10 +111,11 @@ html {
 }
 
 .part-intro {
-        background: url('https://res.cloudinary.com/dwccjr3n4/image/upload/v1644232643/static/images/main-background_hj305u.jpg') no-repeat center center fixed;
-        background-size: cover;
-        height: calc(100vh - 164px);
-    
+        background: url('https://res.cloudinary.com/dwccjr3n4/image/upload/v1644583077/Coffee-home/mainbackground_woii73.jpg') no-repeat;
+        background-position: center center;
+        background-size: cover;    
+        background-attachment: fixed;
+        height: calc(100vh - 150px);   
 }
 
 .arrow-container {
@@ -122,7 +132,8 @@ html {
     position : relative;
     margin-left: auto;
     margin-right: auto;
-    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
 
@@ -179,18 +190,24 @@ html {
 }
 
 .part-about-our-coffee {
-    background: url('https://res.cloudinary.com/dwccjr3n4/image/upload/v1644232643/static/images/main-background_hj305u.jpg') no-repeat center center fixed;
-    background-size: cover; 
+    background: url('https://res.cloudinary.com/dwccjr3n4/image/upload/v1644583077/Coffee-home/mainbackground_woii73.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;    
+    background-attachment: fixed;
     position: relative;
 }
 
 .text-farmers {
-    background-color: #f7d6cabb;
+    background-color: #f3e0d9ea;
 }
 
 .country a {
     text-decoration: none;
     color: black;
+}
+
+.qty_input{
+    min-width: 28px !important;
 }
 
 
@@ -216,7 +233,6 @@ html {
     height: 2px;
 }
 
-/* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
     width: 0; 
     height: 0; 
@@ -228,7 +244,6 @@ html {
     right: 36px;
 }
 
-/* Convenience classes - colors copied from Bootstrap */
 .arrow-primary {
     border-bottom-color: #007bff !important;
 }
@@ -269,14 +284,18 @@ html {
 
 /* -----------------------------Index mobile version */
 .mobile-index {
-    background: url('https://res.cloudinary.com/dwccjr3n4/image/upload/v1644232643/static/images/main-background_hj305u.jpg') no-repeat center center fixed;
-    background-size: cover;
+    background: url('https://res.cloudinary.com/dwccjr3n4/image/upload/v1644583077/Coffee-home/mainbackground_woii73.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;    
+    background-attachment: fixed;
     height: 100%;
 }
 
 .mobile-index-about {
-    background: url('https://res.cloudinary.com/dwccjr3n4/image/upload/v1644232643/static/images/main-background_hj305u.jpg') no-repeat center center fixed;
-    background-size: cover;
+    background: url('https://res.cloudinary.com/dwccjr3n4/image/upload/v1644583077/Coffee-home/mainbackground_woii73.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;    
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -302,7 +321,7 @@ html {
 
 @media (min-width: 992px) {
     .header-container {
-        padding-top: 164px;
+        padding-top: 165px;
     }
 }
 
@@ -310,18 +329,59 @@ html {
     .header-container {
         padding-top: 116px;
     }
-
     body {
         height: calc(100vh - 116px);
     }
 
     .part-intro {
-        height: calc(100vh - 110px);  
+        height: calc(100vh - 100px);  
 }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 390px) {
     .header-container {
-        padding-top: 190px;
+        padding-top: 146px;
+    }
+    body {
+        height: calc(100vh - 146px);
+    }
+
+    .part-intro {
+        height: calc(100vh - 130px);  
+    }
+}
+
+@media (max-width: 320px) {
+    .arrow-container{
+        display: none;
+    }
+    .header-container {
+        padding-top: 180px;
+    }
+
+    body {
+        height: calc(100vh - 180px);
+    }
+
+    .part-intro {
+        height: calc(100vh - 165px);  
+}
+    .shop-now-button {
+        width: 200px;
+    }
+}
+
+/* CSS specific to iOS devices */ 
+@supports (-webkit-touch-callout: none) {
+    .part-intro { 
+        background-attachment: scroll;
+    }
+    .mobile-index
+    { 
+        background-attachment: scroll; 
+    }
+    .mobile-index-about
+    { 
+        background-attachment: scroll;
     }
 }

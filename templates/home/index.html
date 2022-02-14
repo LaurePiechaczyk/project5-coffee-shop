@@ -20,28 +20,26 @@
     <div class="d-none d-lg-block">
 
     <!-- ------------------- Intro part part index -->
-        <div class="part-intro">
-            <div class="container h-100">
-                <div class="row h-100">
-                    <div class="col-9 my-auto">
-                        <h1 class="display-4 logo-font">
-                            Enjoy fresh coffee!
-                        </h1>
-                        <div class="my-5">
-                            <h4>
-                                <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
-                            </h4>
-                        </div>
+    <div class="part-intro">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-9 my-auto">
+                    <h1 class="display-4 logo-font">
+                        Enjoy fresh coffee!
+                    </h1>
+                    <div class="my-5">
+                        <h4>
+                            <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
+                        </h4>
                     </div>
                 </div>
             </div>
-            <!-- arrow down -->
-            <div class="arrow-container">
-                <div class="arrow-down"></div>
-            </div>
-
-        </div>  
-
+        </div>
+        <!-- arrow down -->
+        <div class="arrow-container">
+            <div class="arrow-down"></div>
+        </div>
+    </div>  
     <div class="part-products">
         <div class="pl-5">
             <div class="row h-100">
@@ -57,7 +55,6 @@
         <div class="coffe-pot"> 
             <img class="coffee-liquide" src="https://res.cloudinary.com/dwccjr3n4/image/upload/v1644245722/coffee-animation/cafe-straight_xbac6c.png" alt="liquid coffee in bean for animation">      
             <img class="empty-pot" src="https://res.cloudinary.com/dwccjr3n4/image/upload/v1644245650/coffee-animation/cafetiere-vide_vmywms.png" alt="coffee bean carafe for animation">  
-    
         </div>
 
         <!-- ------------------- products pictures  -->
@@ -70,12 +67,10 @@
                             <a href="{% url 'product_detail' product.id %}">
                                 <img class="card-img-top img-fluid" src="{{ product.image_url }}" alt="{{ product.name }}">
                             </a>
-
                             {% elif product.image %}
                             <a href="{% url 'product_detail' product.id %}">
                                 <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
                             </a>                            
-
                             {% else %}
                             <a href="{% url 'product_detail' product.id %}">
                                 <img class="card-img-top img-fluid" src="https://res.cloudinary.com/dwccjr3n4/image/upload/v1643999538/media/noimage_een4vo.png" alt="{{ product.name }}">
@@ -92,8 +87,7 @@
                     </div>
                 {% endfor %}
             </div>
-        </div>
-        
+        </div>      
         <div class="pl-5 pb-5 more-products">
             <h2 class="text-green pt-5 font-weight-light">More products in our
                 <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase my-auto">Shop</a>
@@ -105,8 +99,7 @@
                 <img class="smoke" src="https://res.cloudinary.com/dwccjr3n4/image/upload/v1644245795/coffee-animation/smoke_d0w3io.png" alt="coffee cup smoke">  
             </div>
         </div>
-    </div>
-    
+    </div>  
         <div class="part-about-our-coffee">
             <div id="about-our-coffee"></div>
             <div class="pl-5">
@@ -128,10 +121,10 @@
                         </div>
                         <div class="col-lg-3 p-1 xl-p-3" >
                             <div class="card  border-0 m-1">
-                                <img class="card-img-top img-fluid" src="https://res.cloudinary.com/dwccjr3n4/image/upload/v1644232795/static/images/coffee-tree_cww4qi.jpg" alt="coffee tree">
+                                <img class="card-img-top img-fluid" src="https://res.cloudinary.com/dwccjr3n4/image/upload/v1644521680/Coffee-home/coffee-tree_qz0jmd.jpg" alt="coffee tree">
                             </div>
                             <div class="card  border-0 m-1">
-                                <img class="card-img-top img-fluid" src="https://res.cloudinary.com/dwccjr3n4/image/upload/v1644232862/static/images/coffee-bag-background_jzbtwa.jpg" alt="coffee bag with beans inside">
+                                <img class="card-img-top img-fluid" src="https://res.cloudinary.com/dwccjr3n4/image/upload/v1644521680/Coffee-home/coffee-bag-background_aqzwtb.jpg" alt="coffee bag with beans inside">
                             </div>
                         </div>
                         <div class="col-5 ml-4 border-0 mt-2 mb-2 text-farmers">
@@ -143,18 +136,15 @@
                             </h4>
                             <p>
                                 That's why our fresh coffee comes from Fairtrade-certified coffee producers. This ensures that farmers receive at least the Fairtrade minimum price for their coffee.
-                                 Read more about Fair trade in the<a href="https://www.fairtrade.net/product/coffee"> official website</a> .
+                                 Read more about Fair trade in the<a href="https://www.fairtrade.net/product/coffee" target="_blank"> official website</a> .
                             </p>
                             <p>
                                 Since we also want to be fair to nature to offer you quality coffee, the production is organic and sustainable.  
                             </p>
                         </div>
-
-
                 </div>
             </div>
-
-            <div class="part-about-our-coffee pb-5">
+            <div class="pb-5">
                 <div class="pl-5">
                     <div class="row h-100">
                         <div class="col-12 my-auto">
@@ -164,8 +154,6 @@
                         </div>
                     </div>
                 </div>
-
-
                 <div class="xl-container-index pt-3">
                     <div class="row no-gutters text-center country">
                         <a href="{% url 'products' %}?country=Ethiopia" class="col-lg-3 p-1 xl-p-3" >
@@ -241,7 +229,7 @@
     <!-- Footer -->
     <footer class="text-center bg-white py-2" id="contact">
         <div class="row mt-3">
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <div class="col-md-4 col-xl-3 mx-auto mb-4">
                 <h4 class="text-uppercase text-dark-beige mb-4">
                     <strong>Coffee & Nature</strong>
                 </h4>
@@ -254,7 +242,7 @@
                 </p>
             </div>
         
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <div class="col-md-4 col-xl-3 mx-auto mb-4">
                 <h4 class="text-uppercase text-dark-beige mb-4">
                     <strong>Contact</strong>
                 </h4>
@@ -271,7 +259,6 @@
                 </div>
             </div>
         </div>
-        
     </footer>
 
 </div>

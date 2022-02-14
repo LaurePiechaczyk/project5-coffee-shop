@@ -42,14 +42,10 @@
                     </small>
                     {% endif %}
                     <h4 class="mt-4">Characteristics:</h4>
-
                     <p class="m-0">{{ product.description }}</p>
                     <p class="m-0"><strong>Strongness: </strong>{{ product.strongness }}/5</p>
                     <p class="m-0"><strong>Roast: </strong>{{ product.roast }}</p>
                     <p class="m-0"><strong>Country: </strong>{{ product.country }}</p>
-
-
-
                     <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
                         {% csrf_token %}
                         <div class="form-row">
