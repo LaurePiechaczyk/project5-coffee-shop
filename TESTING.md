@@ -103,6 +103,7 @@ The website was tested on computers using the browsers:
 - [Microsoft edge](https://en.wikipedia.org/wiki/Microsoft_Edge)
   - CHECK
 - [Safary](https://en.wikipedia.org/wiki/Safari_(software))
+  - CHECK
 
 ### Test on devices
 [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to see how the site looks like on various phones and tablets.
@@ -287,3 +288,8 @@ Regarding the display for a device with a width of 390px (iPhone12 pro), the fir
 
   However, it seems that iOS does not support "background-attachment: fixed;" well and the images did not display well in iphones and ipads. Therefore, "background-attachment: scroll;" was used for iOS devices.
 
+- MacBook Pro
+  - CHECK
+
+-  HP Pavilion
+  - CHECK

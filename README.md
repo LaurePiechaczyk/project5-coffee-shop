@@ -429,7 +429,7 @@ A lot of the code for this site was taken and adapted from the Boutique Ado walk
 
 [mdbootstrap](https://mdbootstrap.com/docs/standard/navigation/footer/) - The code of the footer was adapted from these examples.
 
-[very Academy](https://www.youtube.com/watch?v=eC95DrKMEo8) Trick to Create Django Fixtures from Excel/CSV File.
+[Very Academy](https://www.youtube.com/watch?v=eC95DrKMEo8) - Trick to Create Django Fixtures from Excel/CSV File.
 
 
 ## Read me file credits
