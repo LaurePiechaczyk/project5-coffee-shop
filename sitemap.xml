@@ -9,217 +9,217 @@
 
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/accounts/signup/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/accounts/login/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/bag/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/?category=bean</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/?category=ground</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/?specie=Arabica</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/?specie=Robusta</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/?specie=Blend</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/?sort=price&amp;direction=asc</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/?sort=country&amp;direction=asc</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/?sort=strongness&amp;direction=asc</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/?sort=roast&amp;direction=asc</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://project5-coffee-and-nature.herokuapp.com/products/11/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/3/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://project5-coffee-and-nature.herokuapp.com/products/11/</loc>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://project5-coffee-and-nature.herokuapp.com/products/4/</loc>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/8/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://project5-coffee-and-nature.herokuapp.com/products/2/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/?country=Ethiopia</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/?country=Brazil</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/?country=Togo</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/?country=Peru</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/accounts/password/reset/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/1/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://project5-coffee-and-nature.herokuapp.com/products/4/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <loc>https://project5-coffee-and-nature.herokuapp.com/products/2/</loc>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/5/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/6/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/7/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/9/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/10/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/12/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/13/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/14/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/15/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/16/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/17/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/18/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/19/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/20/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/21/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/22/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/23/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://project5-coffee-and-nature.herokuapp.com/products/24/</loc>
-  <lastmod>2022-02-08T15:29:45+00:00</lastmod>
+  <lastmod>2022-02-14T13:00:23+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 

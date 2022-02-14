@@ -289,7 +289,7 @@ Regarding the display for a device with a width of 390px (iPhone12 pro), the fir
   However, it seems that iOS does not support "background-attachment: fixed;" well and the images did not display well in iphones and ipads. Therefore, "background-attachment: scroll;" was used for iOS devices.
 
 - MacBook Pro
-  - CHECK
+    - CHECK
 
 -  HP Pavilion
-  - CHECK
+    - CHECK
