@@ -17,8 +17,5 @@ RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
 # Copy the rest of the code
 COPY . /app/
 
-# Collect static files (so Django doesn't have to do it at runtime)
-RUN python manage.py collectstatic --noinput
-
 # Use Gunicorn for production
 CMD ["gunicorn", "coffe_shop.wsgi:application", "--bind", "0.0.0.0:8000"]
