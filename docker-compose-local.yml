@@ -1,0 +1,36 @@
+version: '3'
+
+services:
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: projectdb
+      POSTGRES_USER: projectuser
+      POSTGRES_PASSWORD: projectpassword
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile-local
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    environment:
+      - DATABASE_URL=postgres://projectuser:projectpassword@db:5432/projectdb
+      - SECRET_KEY="a-dummy-secret-for-local-work"
+      - DEVELOPMENT=True
+      - CLOUDINARY_CLOUD_NAME="name"
+      - CLOUDINARY_API_KEY="anapikey"
+      - CLOUDINARY_API_SECRET="another-dummy-secret-for-local-work"
+
+volumes:
+  postgres_data:
