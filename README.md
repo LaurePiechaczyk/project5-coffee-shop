@@ -1,7 +1,7 @@
 
 <h1 align="center"> Project 5 for Code Institute formation | COFFEE & NATURE | HTML - CSS - JS - DJANGO</h1>
 
-<h3><i>This project is currently offline</i></h3>
+[View the live project here.](https://project5-coffee-shop.onrender.com)
 
 COFFEE & NATURE is an e-commerce site that sells coffee. The store and the coffees are invented for the project.
 
@@ -335,7 +335,7 @@ The details of testing can be found [here](TESTING.md).
 
 # Deployment
 ## GitHub Pages
-The project was stored in GitHub and deployed in Heroku. Heroku Postgres was used for the database. Cloudinary to store the pictures.
+The project was stored in GitHub and deployed with Render. Render Postgres was used for the database. Cloudinary to store the pictures.
 
 ## Making a Local Clone
 - Log in to GitHub and locate the GitHub Repository.
@@ -394,24 +394,7 @@ python3 manage.py loaddata products
 python manage.py runserver
 ```
 
-## Heroku Deployment
-- Register or login [Heroku](https://id.heroku.com/login)
-- Choose a unique name for the app and the location nearest to you.
-- Under **Resources** search for and add **Heroku Postgres** to your app
-- In your local environment in the env.py file, enter the database URL (to find the URL, in HEROKU go to settings --> click "Reveal Config VARS")
-- In Heroku, add a SECRET_KEY var (must be the same as the one in your env.py file)
-- Add the hostname of your Heroku app to settings.py
-```
-ALLOWED_HOSTS = ['YOUR-APP-NAME.herokuapp.com', 'localhost']
-```
-- In Heroku, select the **Deploy** tab and under **Deployment method** choose GitHub
-- In **Connect to GitHub** enter your GitHub repository details and once found, click **Connect**
-- under **Manual deploy** choose **Deploy Branch**
-
-- The steps from the previous section have to be repeated to load data in the new database (can be done in the local environment):
-  - Applying database migrations
-  - Creating a new superuser
-  - Load data
+### Alternatively Dockerfile-local and docker-compose-local have been added to run the project locally
 
 
 ## Cloudinary
