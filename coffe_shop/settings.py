@@ -31,7 +31,7 @@ DEBUG = development
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['project5-coffee-and-nature.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['project5-coffee-shop.onrender.com', 'localhost']
 
 
 # Application definition
