@@ -1,7 +1,7 @@
 
 <h1 align="center"> Project 5 for Code Institute formation | COFFEE & NATURE | HTML - CSS - JS - DJANGO</h1>
 
-[View the live project here.](https://project5-coffee-shop.onrender.com)
+Project currently not running in LIVE
 
 COFFEE & NATURE is an e-commerce site that sells coffee. The store and the coffees are invented for the project.
 
